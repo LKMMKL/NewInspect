@@ -29,7 +29,15 @@ namespace NewInspect.Automation
         public string controlType { get; set; }
         public string rect { get; set; }
         public string rootId;
-        public bool isSelected { get; set; }
+        public bool isSelected
+        {
+            get { return GetProperty<bool>(); }
+            set
+            {
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("isSelected"));
+                SetProperty(value);
+            }
+        }
         public bool isExpanded
         {
             get { return GetProperty<bool>(); }

@@ -98,37 +98,42 @@ namespace NewInspect.Automation
             tp.y = point.Y;
             tp.x = point.X;
 
-            Logger.Info($"time elapsed..");
+            Logger.Info($"time elapsed, flag:{flag}");
             // 指针在主窗口内
             if (false)
             {
             }
             else
             {
-                try
-                {
-                    if (flag)
+                Task.Run(() => {
+                    try
                     {
-                        CUIAutomation uia = new CUIAutomation();
-                        IUIAutomationElement ele = uia.ElementFromPoint(tp);
-                        var currName = ele.CurrentName;
-                        if (activeEle==null || (ele != null && uia.CompareElements(ele, activeEle)!=1))
+                        if (flag)
                         {
-                            Logger.Info($"mouse select start: element name {currName}");
-                            activeEle = ele;
-                            flag = false;
-                            Util.MouseSelect(ele, (Elements)root);
-                            flag = true;
-                            Logger.Info($"mouse select end: element name {currName}");
+                            CUIAutomation uia = new CUIAutomation();
+                            IUIAutomationElement ele = uia.ElementFromPoint(tp);
+                            var currName = ele.CurrentName;
+                            if (activeEle == null || (ele != null && uia.CompareElements(ele, activeEle) != 1))
+                            {
+                                Logger.Info($"mouse select start: element name {currName}");
+                                activeEle = ele;
+                                flag = false;
+                                Util.MouseSelect(ele, (Elements)root);
+
+                                Logger.Info($"mouse select end: element name {currName}");
+                            }
                         }
-                        
                     }
-                    
-                }
-                catch (Exception ex)
-                {
-                    Logger.Error(ex.Message);
-                }
+                    catch (Exception ex)
+                    {
+                        Logger.Error(ex.StackTrace);
+                    }
+                    finally
+                    {
+                        flag = true;
+                    }
+
+                });
             }
         }
 
