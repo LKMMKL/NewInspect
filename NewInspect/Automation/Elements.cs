@@ -20,39 +20,10 @@ namespace NewInspect.Automation
     }
     public class Elements : INotifyPropertyChanged
     {
-        public string name
-        {
-            get
-            {
-                return NormalizeString(curr.CurrentName);
-            }
-            set
-            {
-                name = curr.CurrentName;
-            }
-
-        }
+        public string name { get; set; }
         //public string name { get; set; }
-        public string className {
-            get
-            {
-                return curr.CurrentClassName;
-            }
-            set
-            {
-                name = curr.CurrentClassName;
-            }
-        }
-        public string automationId {
-            get
-            {
-                return curr.CurrentAutomationId;
-            }
-            set
-            {
-                name = curr.CurrentAutomationId;
-            }
-        }
+        public string className { get; set; }
+        public string automationId { get; set; }
         public string runtimeId { get; set; }
         public bool offScreen { get; set; }
         public string controlType { get; set; }
@@ -81,6 +52,9 @@ namespace NewInspect.Automation
         public Elements(string rootId, IUIAutomationElement curr)
         {
             this.rootId = rootId;
+            this.name = NormalizeString(curr.CurrentName);
+            this.className = curr.CurrentClassName;
+            this.automationId = curr.CurrentAutomationId;
             this.controlType  = $"{(ControlType)curr.CurrentControlType}";
             this.curr = curr;
             //this.runtimeId = Util.GetRuntimeIdStr(curr.GetRuntimeId());

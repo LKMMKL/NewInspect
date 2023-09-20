@@ -33,16 +33,31 @@ namespace NewInspect.Automation
             Rectangle rect = new Rectangle(r.left - 2, r.top - 2, r.right - r.left + 2, r.bottom - r.top + 2);
             draw_task = new Task(() =>
             {
+                //IntPtr desktop = Win32API.GetDC(IntPtr.Zero);
+                //while (!ct.IsCancellationRequested)
+                //{
+                //    using (Graphics g = Graphics.FromHdc(desktop))
+                //    {
+                //        Pen myPen = new Pen(System.Drawing.Color.BlueViolet, 2);
+                //        g.DrawRectangle(myPen, rect);
+                //        g.Dispose();
+                //    }
+                //}
+                //var r1 = IntPtr.Zero;
+                //IntPtr pnt = Marshal.AllocHGlobal(Marshal.SizeOf(rect));
+                //Marshal.StructureToPtr(r1, pnt, false);
+                ////InvalidateRect(IntPtr.Zero,r , true);
+                //Win32API.InvalidateRect(IntPtr.Zero, r1, true);
                 IntPtr desktop = Win32API.GetDC(IntPtr.Zero);
+                Pen myPen = new Pen(System.Drawing.Color.BlueViolet, 2);
+                Graphics g = Graphics.FromHdc(desktop);
                 while (!ct.IsCancellationRequested)
                 {
-                    using (Graphics g = Graphics.FromHdc(desktop))
-                    {
-                        Pen myPen = new Pen(System.Drawing.Color.BlueViolet, 2);
-                        g.DrawRectangle(myPen, rect);
-                        g.Dispose();
-                    }
+                    Thread.Sleep(500);
+                    g.DrawRectangle(myPen, rect);
+                    //g.Dispose();
                 }
+                g.Dispose();
                 var r1 = IntPtr.Zero;
                 IntPtr pnt = Marshal.AllocHGlobal(Marshal.SizeOf(rect));
                 Marshal.StructureToPtr(r1, pnt, false);
@@ -62,7 +77,7 @@ namespace NewInspect.Automation
         public static void MouseDetect(Elements rootElement)
         {
             root = rootElement;
-            System.Timers.Timer timer = new System.Timers.Timer(3000);
+            System.Timers.Timer timer = new System.Timers.Timer(2000);
             timer.Elapsed += Timer_Elapsed;
             timer.Start();
 

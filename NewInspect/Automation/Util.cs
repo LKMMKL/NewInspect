@@ -64,6 +64,7 @@ namespace NewInspect.Automation
 
         public static void MouseSelect(IUIAutomationElement obj, Elements rootElement)
         {
+            IUIAutomationElement s = obj;
             var pathToRoot = new Stack<IUIAutomationElement>();
             IUIAutomationTreeWalker walker = uia.RawViewWalker;
             while (obj != null)
@@ -108,8 +109,9 @@ namespace NewInspect.Automation
                 {
                     elementVm.isExpanded = true;
                 }
-                elementVm.isSelected = true;
+                
             }
+            elementVm.isSelected = true;
         }
 
         public static void GetAllSupportPattern(ObservableCollection<EleDetail> dict, IUIAutomationElement source)
