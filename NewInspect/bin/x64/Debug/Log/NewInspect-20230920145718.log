@@ -1,0 +1,942 @@
+Level: Info
+Date: 2023-09-20 14:57:18 
+File: D:\Projects\Github\NewInspect\NewInspect\MainWindow.xaml.cs
+Line: 37
+Data:MainWindow Setup
+
+Level: Info
+Date: 2023-09-20 14:57:23 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1210, y: 935
+
+Level: Info
+Date: 2023-09-20 14:57:23 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:23 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:23 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:23 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:25 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1210, y: 935
+
+Level: Info
+Date: 2023-09-20 14:57:25 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:25 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:25 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:25 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:27 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1210, y: 935
+
+Level: Info
+Date: 2023-09-20 14:57:27 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:27 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:27 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:27 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1210, y: 935
+
+Level: Info
+Date: 2023-09-20 14:57:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1210, y: 935
+
+Level: Info
+Date: 2023-09-20 14:57:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:33 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1215, y: 618
+
+Level: Info
+Date: 2023-09-20 14:57:33 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:33 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:33 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:33 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1215, y: 618
+
+Level: Info
+Date: 2023-09-20 14:57:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:37 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1927, y: 198
+
+Level: Info
+Date: 2023-09-20 14:57:37 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:37 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:37 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:37 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:39 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1301, y: 935
+
+Level: Info
+Date: 2023-09-20 14:57:39 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:39 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:39 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:39 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:41 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1212, y: 1088
+
+Level: Info
+Date: 2023-09-20 14:57:41 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:41 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:41 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:41 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:43 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1212, y: 1088
+
+Level: Info
+Date: 2023-09-20 14:57:43 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:43 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:43 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:43 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:45 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1825, y: 88
+
+Level: Info
+Date: 2023-09-20 14:57:45 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 在自动和仅限 Tab 的 IntelliSense 完成之间切换(&T)
+
+Level: Info
+Date: 2023-09-20 14:57:45 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:4
+
+Level: Info
+Date: 2023-09-20 14:57:45 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: NewInspect (正在运行) - Microsoft Visual Studio(管理员)
+
+Level: Info
+Date: 2023-09-20 14:57:45 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: ToolBarDockTop
+
+Level: Info
+Date: 2023-09-20 14:57:45 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 文本编辑器
+
+Level: Info
+Date: 2023-09-20 14:57:45 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 在自动和仅限 Tab 的 IntelliSense 完成之间切换(&T)
+
+Level: Info
+Date: 2023-09-20 14:57:45 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 在自动和仅限 Tab 的 IntelliSense 完成之间切换(&T)
+
+Level: Info
+Date: 2023-09-20 14:57:47 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1825, y: 88
+
+Level: Info
+Date: 2023-09-20 14:57:47 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 在自动和仅限 Tab 的 IntelliSense 完成之间切换(&T)
+
+Level: Info
+Date: 2023-09-20 14:57:47 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:4
+
+Level: Info
+Date: 2023-09-20 14:57:47 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: NewInspect (正在运行) - Microsoft Visual Studio(管理员)
+
+Level: Info
+Date: 2023-09-20 14:57:47 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: ToolBarDockTop
+
+Level: Info
+Date: 2023-09-20 14:57:47 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 文本编辑器
+
+Level: Info
+Date: 2023-09-20 14:57:47 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 在自动和仅限 Tab 的 IntelliSense 完成之间切换(&T)
+
+Level: Info
+Date: 2023-09-20 14:57:47 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 在自动和仅限 Tab 的 IntelliSense 完成之间切换(&T)
+
+Level: Info
+Date: 2023-09-20 14:57:49 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1228, y: 927
+
+Level: Info
+Date: 2023-09-20 14:57:49 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:49 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:49 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:49 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:51 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1224, y: 927
+
+Level: Info
+Date: 2023-09-20 14:57:51 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:51 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:51 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:51 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:53 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:419, y: 561
+
+Level: Info
+Date: 2023-09-20 14:57:53 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 
+
+Level: Info
+Date: 2023-09-20 14:57:53 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:2
+
+Level: Info
+Date: 2023-09-20 14:57:53 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: MainWindow
+
+Level: Info
+Date: 2023-09-20 14:57:53 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 14:57:53 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 
+
+Level: Info
+Date: 2023-09-20 14:57:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1333, y: 609
+
+Level: Info
+Date: 2023-09-20 14:57:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:57 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1229, y: 611
+
+Level: Info
+Date: 2023-09-20 14:57:57 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:57 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:57 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:57 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1195, y: 922
+
+Level: Info
+Date: 2023-09-20 14:57:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:57:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:57:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:57:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:58:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1748, y: 1570
+
+Level: Info
+Date: 2023-09-20 14:58:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name NewInspect - 1 个运行窗口
+
+Level: Info
+Date: 2023-09-20 14:58:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:6
+
+Level: Info
+Date: 2023-09-20 14:58:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 任务栏
+
+Level: Info
+Date: 2023-09-20 14:58:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: DesktopWindowXamlSource
+
+Level: Info
+Date: 2023-09-20 14:58:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 107
+Data:mouse select find element fail
+
+Level: Info
+Date: 2023-09-20 14:58:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name NewInspect - 1 个运行窗口
+
+Level: Info
+Date: 2023-09-20 14:58:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1748, y: 1570
+
+Level: Info
+Date: 2023-09-20 14:58:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name NewInspect - 1 个运行窗口
+
+Level: Info
+Date: 2023-09-20 14:58:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:6
+
+Level: Info
+Date: 2023-09-20 14:58:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 任务栏
+
+Level: Info
+Date: 2023-09-20 14:58:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: DesktopWindowXamlSource
+
+Level: Info
+Date: 2023-09-20 14:58:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 107
+Data:mouse select find element fail
+
+Level: Info
+Date: 2023-09-20 14:58:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name NewInspect - 1 个运行窗口
+
+Level: Info
+Date: 2023-09-20 14:58:05 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1748, y: 1570
+
+Level: Info
+Date: 2023-09-20 14:58:05 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name NewInspect - 1 个运行窗口
+
+Level: Info
+Date: 2023-09-20 14:58:05 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:6
+
+Level: Info
+Date: 2023-09-20 14:58:05 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 任务栏
+
+Level: Info
+Date: 2023-09-20 14:58:05 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: DesktopWindowXamlSource
+
+Level: Info
+Date: 2023-09-20 14:58:05 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 107
+Data:mouse select find element fail
+
+Level: Info
+Date: 2023-09-20 14:58:05 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name NewInspect - 1 个运行窗口
+
+Level: Info
+Date: 2023-09-20 14:58:07 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1659, y: 1560
+
+Level: Info
+Date: 2023-09-20 14:58:07 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 任务管理器 - 1 个运行窗口
+
+Level: Info
+Date: 2023-09-20 14:58:07 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:6
+
+Level: Info
+Date: 2023-09-20 14:58:07 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 任务栏
+
+Level: Info
+Date: 2023-09-20 14:58:07 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: DesktopWindowXamlSource
+
+Level: Info
+Date: 2023-09-20 14:58:07 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 107
+Data:mouse select find element fail
+
+Level: Info
+Date: 2023-09-20 14:58:07 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 任务管理器 - 1 个运行窗口
+
+Level: Info
+Date: 2023-09-20 14:58:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1659, y: 1560
+
+Level: Info
+Date: 2023-09-20 14:58:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 任务管理器 - 1 个运行窗口
+
+Level: Info
+Date: 2023-09-20 14:58:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:6
+
+Level: Info
+Date: 2023-09-20 14:58:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 任务栏
+
+Level: Info
+Date: 2023-09-20 14:58:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: DesktopWindowXamlSource
+
+Level: Info
+Date: 2023-09-20 14:58:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 107
+Data:mouse select find element fail
+
+Level: Info
+Date: 2023-09-20 14:58:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 任务管理器 - 1 个运行窗口
+
+Level: Info
+Date: 2023-09-20 14:58:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1855, y: 1560
+
+Level: Info
+Date: 2023-09-20 14:58:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 
+
+Level: Info
+Date: 2023-09-20 14:58:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:4
+
+Level: Info
+Date: 2023-09-20 14:58:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 任务栏
+
+Level: Info
+Date: 2023-09-20 14:58:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: DesktopWindowXamlSource
+
+Level: Info
+Date: 2023-09-20 14:58:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 107
+Data:mouse select find element fail
+
+Level: Info
+Date: 2023-09-20 14:58:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 
+
+Level: Info
+Date: 2023-09-20 14:58:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1980, y: 1547
+
+Level: Info
+Date: 2023-09-20 14:58:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 
+
+Level: Info
+Date: 2023-09-20 14:58:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:5
+
+Level: Info
+Date: 2023-09-20 14:58:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 任务栏
+
+Level: Info
+Date: 2023-09-20 14:58:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: DesktopWindowXamlSource
+
+Level: Info
+Date: 2023-09-20 14:58:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 107
+Data:mouse select find element fail
+
+Level: Info
+Date: 2023-09-20 14:58:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 
+
+Level: Info
+Date: 2023-09-20 14:58:15 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1358, y: 425
+
+Level: Info
+Date: 2023-09-20 14:58:15 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信
+
+Level: Info
+Date: 2023-09-20 14:58:15 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:58:15 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:58:15 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信
+

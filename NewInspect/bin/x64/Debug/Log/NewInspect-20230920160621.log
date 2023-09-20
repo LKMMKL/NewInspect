@@ -1,0 +1,216 @@
+Level: Info
+Date: 2023-09-20 16:06:21 
+File: D:\Projects\Github\NewInspect\NewInspect\MainWindow.xaml.cs
+Line: 37
+Data:MainWindow Setup
+
+Level: Info
+Date: 2023-09-20 16:06:38 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1754, y: 638
+
+Level: Info
+Date: 2023-09-20 16:06:38 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 六点半
+
+Level: Info
+Date: 2023-09-20 16:06:38 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 90
+Data:mouse select pathToRoot count:11
+
+Level: Info
+Date: 2023-09-20 16:06:38 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 16:06:38 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: CWebviewHostWnd
+
+Level: Info
+Date: 2023-09-20 16:06:38 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 16:06:38 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 16:06:38 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 16:06:40 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1754, y: 638
+
+Level: Info
+Date: 2023-09-20 16:06:42 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1754, y: 638
+
+Level: Info
+Date: 2023-09-20 16:06:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 109
+Data:mouse select find element fail
+
+Level: Info
+Date: 2023-09-20 16:06:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 六点半
+
+Level: Info
+Date: 2023-09-20 16:06:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1754, y: 638
+
+Level: Info
+Date: 2023-09-20 16:06:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 六点半
+
+Level: Info
+Date: 2023-09-20 16:06:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 90
+Data:mouse select pathToRoot count:11
+
+Level: Info
+Date: 2023-09-20 16:06:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 16:06:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: CWebviewHostWnd
+
+Level: Info
+Date: 2023-09-20 16:06:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 16:06:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 16:06:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 16:06:46 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1754, y: 638
+
+Level: Info
+Date: 2023-09-20 16:06:48 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1754, y: 638
+
+Level: Info
+Date: 2023-09-20 16:06:49 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 109
+Data:mouse select find element fail
+
+Level: Info
+Date: 2023-09-20 16:06:49 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 六点半
+
+Level: Info
+Date: 2023-09-20 16:06:50 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1354, y: 101
+
+Level: Info
+Date: 2023-09-20 16:06:50 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name Text Editor
+
+Level: Info
+Date: 2023-09-20 16:06:50 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 90
+Data:mouse select pathToRoot count:8
+
+Level: Info
+Date: 2023-09-20 16:06:50 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: NewInspect (正在运行) - Microsoft Visual Studio(管理员)
+
+Level: Info
+Date: 2023-09-20 16:06:50 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 16:06:50 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 16:06:50 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: Util.cs
+
+Level: Info
+Date: 2023-09-20 16:06:50 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: Util.cs
+
+Level: Info
+Date: 2023-09-20 16:06:50 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: Util.cs
+
+Level: Info
+Date: 2023-09-20 16:06:50 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 16:06:51 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 101
+Data:mouse select pathToRoot pop: Text Editor
+

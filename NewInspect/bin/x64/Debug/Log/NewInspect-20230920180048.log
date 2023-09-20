@@ -1,0 +1,402 @@
+Level: Info
+Date: 2023-09-20 18:00:48 
+File: D:\Projects\Github\NewInspect\NewInspect\MainWindow.xaml.cs
+Line: 38
+Data:MainWindow Setup
+
+Level: Info
+Date: 2023-09-20 18:00:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:2078, y: 668
+
+Level: Info
+Date: 2023-09-20 18:00:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 六点半
+
+Level: Info
+Date: 2023-09-20 18:00:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 117
+Data:mouse select pathToRoot count:11, target:六点半, ,  
+
+Level: Info
+Date: 2023-09-20 18:00:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 128
+Data:mouse select pathToRoot pop: target:微信, WeChatMainWndForPC, , 42,397470 
+
+Level: Info
+Date: 2023-09-20 18:00:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 128
+Data:mouse select pathToRoot pop: target:CWebviewHostWnd, CWebviewControlHostWnd, , 42,135404 
+
+Level: Info
+Date: 2023-09-20 18:00:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 128
+Data:mouse select pathToRoot pop: target:, Chrome_WidgetWin_0, , 42,200942 
+
+Level: Info
+Date: 2023-09-20 18:00:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 128
+Data:mouse select pathToRoot pop: target:, Chrome_RenderWidgetHostHWND, 14386112, 42,200972,4,-92 
+
+Level: Info
+Date: 2023-09-20 18:00:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 128
+Data:mouse select pathToRoot pop: target:, , , 42,200972,4,-95 
+
+Level: Info
+Date: 2023-09-20 18:00:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 128
+Data:mouse select pathToRoot pop: target:, , , 42,200972,4,-96 
+
+Level: Info
+Date: 2023-09-20 18:00:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 128
+Data:mouse select pathToRoot pop: target:, , , 42,200972,4,-97 
+
+Level: Info
+Date: 2023-09-20 18:00:56 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 128
+Data:mouse select pathToRoot pop: target:, , , 42,200972,4,-102 
+
+Level: Info
+Date: 2023-09-20 18:00:56 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 128
+Data:mouse select pathToRoot pop: target:, , , 42,200972,4,-9297 
+
+Level: Info
+Date: 2023-09-20 18:00:56 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 128
+Data:mouse select pathToRoot pop: target:, , , 42,200972,4,-9314 
+
+Level: Info
+Date: 2023-09-20 18:00:56 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 128
+Data:mouse select pathToRoot pop: target:六点半, , , 42,200972,4,-9316 
+
+Level: Info
+Date: 2023-09-20 18:00:57 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:2078, y: 668
+
+Level: Info
+Date: 2023-09-20 18:00:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:2082, y: 671
+
+Level: Info
+Date: 2023-09-20 18:01:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:2084, y: 679
+
+Level: Info
+Date: 2023-09-20 18:01:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:2247, y: 676
+
+Level: Info
+Date: 2023-09-20 18:01:05 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:2247, y: 676
+
+Level: Info
+Date: 2023-09-20 18:01:07 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:2250, y: 667
+
+Level: Info
+Date: 2023-09-20 18:01:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:2250, y: 667
+
+Level: Info
+Date: 2023-09-20 18:01:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1949, y: 669
+
+Level: Info
+Date: 2023-09-20 18:01:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1919, y: 678
+
+Level: Info
+Date: 2023-09-20 18:01:15 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1919, y: 678
+
+Level: Info
+Date: 2023-09-20 18:01:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:498, y: 753
+
+Level: Info
+Date: 2023-09-20 18:01:19 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:498, y: 753
+
+Level: Info
+Date: 2023-09-20 18:01:21 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:498, y: 753
+
+Level: Info
+Date: 2023-09-20 18:01:23 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:498, y: 753
+
+Level: Info
+Date: 2023-09-20 18:01:25 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1928, y: 677
+
+Level: Info
+Date: 2023-09-20 18:01:27 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1928, y: 677
+
+Level: Info
+Date: 2023-09-20 18:01:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1922, y: 677
+
+Level: Info
+Date: 2023-09-20 18:01:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-2734, y: 1488
+
+Level: Info
+Date: 2023-09-20 18:01:33 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-3304, y: 1410
+
+Level: Info
+Date: 2023-09-20 18:01:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-3168, y: 1892
+
+Level: Info
+Date: 2023-09-20 18:01:37 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-3168, y: 1892
+
+Level: Info
+Date: 2023-09-20 18:01:39 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-3142, y: 1264
+
+Level: Info
+Date: 2023-09-20 18:01:41 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-2944, y: 1780
+
+Level: Info
+Date: 2023-09-20 18:01:43 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-3120, y: 1762
+
+Level: Info
+Date: 2023-09-20 18:01:45 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-3716, y: 1504
+
+Level: Info
+Date: 2023-09-20 18:01:47 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1939, y: 662
+
+Level: Info
+Date: 2023-09-20 18:01:49 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1926, y: 666
+
+Level: Info
+Date: 2023-09-20 18:01:51 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1936, y: 675
+
+Level: Info
+Date: 2023-09-20 18:01:53 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1936, y: 675
+
+Level: Info
+Date: 2023-09-20 18:01:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:2089, y: 673
+
+Level: Info
+Date: 2023-09-20 18:01:57 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:2089, y: 673
+
+Level: Info
+Date: 2023-09-20 18:01:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:2231, y: 674
+
+Level: Info
+Date: 2023-09-20 18:02:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-544, y: 2192
+
+Level: Info
+Date: 2023-09-20 18:02:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-2210, y: 1836
+
+Level: Info
+Date: 2023-09-20 18:02:05 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-3694, y: 1072
+
+Level: Info
+Date: 2023-09-20 18:02:07 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-2368, y: 1050
+
+Level: Info
+Date: 2023-09-20 18:02:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-3732, y: 1032
+
+Level: Info
+Date: 2023-09-20 18:02:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-3320, y: 1584
+
+Level: Info
+Date: 2023-09-20 18:02:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-2530, y: 1732
+
+Level: Info
+Date: 2023-09-20 18:02:15 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-3762, y: 1672
+
+Level: Info
+Date: 2023-09-20 18:02:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-3750, y: 1388
+
+Level: Info
+Date: 2023-09-20 18:02:19 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1959, y: 668
+
+Level: Info
+Date: 2023-09-20 18:02:21 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1959, y: 668
+
+Level: Info
+Date: 2023-09-20 18:02:23 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1942, y: 676
+
+Level: Info
+Date: 2023-09-20 18:02:25 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-2936, y: 1590
+
+Level: Info
+Date: 2023-09-20 18:02:27 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-3270, y: 1588
+
+Level: Info
+Date: 2023-09-20 18:02:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-3156, y: 1564
+
+Level: Info
+Date: 2023-09-20 18:02:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1203, y: 744
+
+Level: Info
+Date: 2023-09-20 18:02:33 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1922, y: 662
+
+Level: Info
+Date: 2023-09-20 18:02:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1922, y: 662
+
+Level: Info
+Date: 2023-09-20 18:02:37 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-3752, y: 1258
+
+Level: Info
+Date: 2023-09-20 18:02:39 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1965, y: 672
+

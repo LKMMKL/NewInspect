@@ -1,0 +1,198 @@
+Level: Info
+Date: 2023-09-20 17:32:35 
+File: D:\Projects\Github\NewInspect\NewInspect\MainWindow.xaml.cs
+Line: 37
+Data:MainWindow Setup
+
+Level: Info
+Date: 2023-09-20 17:32:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1490, y: 655
+
+Level: Info
+Date: 2023-09-20 17:32:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 六点半
+
+Level: Info
+Date: 2023-09-20 17:32:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 92
+Data:mouse select pathToRoot count:11, target:六点半, ,  
+
+Level: Info
+Date: 2023-09-20 17:32:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 103
+Data:mouse select pathToRoot pop: target:微信, WeChatMainWndForPC, , 42,397470 
+
+Level: Info
+Date: 2023-09-20 17:32:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 103
+Data:mouse select pathToRoot pop: target:CWebviewHostWnd, CWebviewControlHostWnd, , 42,135404 
+
+Level: Info
+Date: 2023-09-20 17:32:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 103
+Data:mouse select pathToRoot pop: target:, Chrome_WidgetWin_0, , 42,200942 
+
+Level: Info
+Date: 2023-09-20 17:32:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 103
+Data:mouse select pathToRoot pop: target:, Chrome_RenderWidgetHostHWND, 14386112, 42,200972,4,-92 
+
+Level: Info
+Date: 2023-09-20 17:32:44 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 103
+Data:mouse select pathToRoot pop: target:, , , 42,200972,4,-95 
+
+Level: Info
+Date: 2023-09-20 17:32:46 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1490, y: 655
+
+Level: Info
+Date: 2023-09-20 17:32:48 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1490, y: 655
+
+Level: Info
+Date: 2023-09-20 17:32:54 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:-2836, y: 614
+
+Level: Info
+Date: 2023-09-20 17:32:54 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 六点半
+
+Level: Info
+Date: 2023-09-20 17:32:56 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:425, y: 528
+
+Level: Info
+Date: 2023-09-20 17:32:56 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 
+
+Level: Info
+Date: 2023-09-20 17:32:56 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 92
+Data:mouse select pathToRoot count:2, target:, Window,  
+
+Level: Info
+Date: 2023-09-20 17:32:56 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 103
+Data:mouse select pathToRoot pop: target:MainWindow, Window, , 42,7081446 
+
+Level: Info
+Date: 2023-09-20 17:32:56 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 103
+Data:mouse select pathToRoot pop: target:, Window, , 42,790534 
+
+Level: Info
+Date: 2023-09-20 17:32:57 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 
+
+Level: Info
+Date: 2023-09-20 17:32:58 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:396, y: 802
+
+Level: Info
+Date: 2023-09-20 17:33:00 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:965, y: 90
+
+Level: Info
+Date: 2023-09-20 17:33:00 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name Hot reload area expander
+
+Level: Info
+Date: 2023-09-20 17:33:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 92
+Data:mouse select pathToRoot count:3, target:Hot reload area expander, Button, HotReloadExpander 
+
+Level: Info
+Date: 2023-09-20 17:33:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 103
+Data:mouse select pathToRoot pop: target:MainWindow, Window, , 42,7081446 
+
+Level: Info
+Date: 2023-09-20 17:33:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 103
+Data:mouse select pathToRoot pop: target:, Window, , 42,790534 
+
+Level: Info
+Date: 2023-09-20 17:33:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 103
+Data:mouse select pathToRoot pop: target:Hot reload area expander, Button, HotReloadExpander, 7,53060,39922260 
+
+Level: Info
+Date: 2023-09-20 17:33:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name Hot reload area expander
+
+Level: Info
+Date: 2023-09-20 17:33:02 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1030, y: 69
+
+Level: Info
+Date: 2023-09-20 17:33:02 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 
+
+Level: Info
+Date: 2023-09-20 17:33:02 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 92
+Data:mouse select pathToRoot count:2, target:, Window,  
+
+Level: Info
+Date: 2023-09-20 17:33:02 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 103
+Data:mouse select pathToRoot pop: target:MainWindow, Window, , 42,7081446 
+
+Level: Info
+Date: 2023-09-20 17:33:02 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 103
+Data:mouse select pathToRoot pop: target:, Window, , 42,790534 
+
+Level: Info
+Date: 2023-09-20 17:33:02 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 
+

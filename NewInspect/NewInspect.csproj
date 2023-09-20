@@ -44,7 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Interop.UIAutomationClient">
-      <HintPath>D:\Code\github\AutomationDemo\dll\Interop.UIAutomationClient.dll</HintPath>
+      <HintPath>.\Interop.UIAutomationClient.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
@@ -83,6 +83,7 @@
     <Compile Include="Constants\ControlType.cs" />
     <Compile Include="Constants\PatternId.cs" />
     <Compile Include="Constants\Win32API.cs" />
+    <Compile Include="Logger.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

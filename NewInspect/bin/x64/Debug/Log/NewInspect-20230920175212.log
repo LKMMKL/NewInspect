@@ -1,0 +1,222 @@
+Level: Info
+Date: 2023-09-20 17:52:12 
+File: D:\Projects\Github\NewInspect\NewInspect\MainWindow.xaml.cs
+Line: 37
+Data:MainWindow Setup
+
+Level: Info
+Date: 2023-09-20 17:52:21 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1740, y: 716
+
+Level: Info
+Date: 2023-09-20 17:52:21 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 高州论坛
+
+Level: Info
+Date: 2023-09-20 17:52:21 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:11, target:高州论坛, ,  
+
+Level: Info
+Date: 2023-09-20 17:52:21 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:微信, WeChatMainWndForPC, , 42,397470 
+
+Level: Info
+Date: 2023-09-20 17:52:21 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:CWebviewHostWnd, CWebviewControlHostWnd, , 42,135404 
+
+Level: Info
+Date: 2023-09-20 17:52:21 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, Chrome_WidgetWin_0, , 42,200942 
+
+Level: Info
+Date: 2023-09-20 17:52:21 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, Chrome_RenderWidgetHostHWND, 14386112, 42,200972,4,-92 
+
+Level: Info
+Date: 2023-09-20 17:52:21 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , , 42,200972,4,-95 
+
+Level: Info
+Date: 2023-09-20 17:52:21 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , , 42,200972,4,-96 
+
+Level: Info
+Date: 2023-09-20 17:52:21 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , , 42,200972,4,-97 
+
+Level: Info
+Date: 2023-09-20 17:52:23 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , , 42,200972,4,-102 
+
+Level: Info
+Date: 2023-09-20 17:52:23 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , , 42,200972,4,-9294 
+
+Level: Info
+Date: 2023-09-20 17:52:23 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:471, y: 707
+
+Level: Info
+Date: 2023-09-20 17:52:23 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , , 42,200972,4,-9302 
+
+Level: Info
+Date: 2023-09-20 17:52:23 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:高州论坛, , , 42,200972,4,-9304 
+
+Level: Info
+Date: 2023-09-20 17:52:23 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 高州论坛
+
+Level: Info
+Date: 2023-09-20 17:52:25 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:381, y: 594
+
+Level: Info
+Date: 2023-09-20 17:52:25 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 
+
+Level: Info
+Date: 2023-09-20 17:52:25 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:2, target:, Window,  
+
+Level: Info
+Date: 2023-09-20 17:52:25 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:MainWindow, Window, , 42,1249432 
+
+Level: Info
+Date: 2023-09-20 17:52:25 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, Window, , 42,3541948 
+
+Level: Info
+Date: 2023-09-20 17:52:25 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 
+
+Level: Info
+Date: 2023-09-20 17:52:27 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:342, y: 376
+
+Level: Info
+Date: 2023-09-20 17:52:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:666, y: 294
+
+Level: Info
+Date: 2023-09-20 17:52:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1284, y: 901
+
+Level: Info
+Date: 2023-09-20 17:52:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name Text Editor
+
+Level: Info
+Date: 2023-09-20 17:52:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:8, target:Text Editor, WpfTextView, WpfTextView 
+
+Level: Info
+Date: 2023-09-20 17:52:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:AutomationFuncLib - Microsoft Visual Studio, Window, VisualStudioMainWindow, 42,4263372 
+
+Level: Info
+Date: 2023-09-20 17:52:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, DockRoot, , 7,14212,55834846 
+
+Level: Info
+Date: 2023-09-20 17:52:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, DocumentGroup, , 7,14212,26178814 
+
+Level: Info
+Date: 2023-09-20 17:52:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:UIControlAssist.cs, TabItem, , 7,14212,35639369 
+
+Level: Info
+Date: 2023-09-20 17:52:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:UIControlAssist.cs, ViewPresenter, D:0:0:{D9DB07DF-1631-49E8-B249-D6B1EFD2B1FA}|AutomationFuncLib\AutomationFuncLib.csproj|d:\projects\automationcase\automationfunclib2.0\automationfunclib\uiautomation\common\uicontrolassist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}, 7,14212,2242324 
+
+Level: Info
+Date: 2023-09-20 17:52:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:UIControlAssist.cs, GenericPane, , 7,14212,20180916 
+
+Level: Info
+Date: 2023-09-20 17:52:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , WpfTextViewHost, 7,14212,47410523 
+
+Level: Info
+Date: 2023-09-20 17:52:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:Text Editor, WpfTextView, WpfTextView, 7,14212,24041529 
+
+Level: Info
+Date: 2023-09-20 17:52:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name Text Editor
+

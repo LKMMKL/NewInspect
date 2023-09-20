@@ -1,0 +1,60 @@
+Level: Info
+Date: 2023-09-20 16:14:23 
+File: D:\Projects\Github\NewInspect\NewInspect\MainWindow.xaml.cs
+Line: 37
+Data:MainWindow Setup
+
+Level: Info
+Date: 2023-09-20 16:14:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1930, y: 677
+
+Level: Info
+Date: 2023-09-20 16:14:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name i深圳
+
+Level: Info
+Date: 2023-09-20 16:14:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 91
+Data:mouse select pathToRoot count:11, target:i深圳, ,  
+
+Level: Info
+Date: 2023-09-20 16:14:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 102
+Data:mouse select pathToRoot pop: target:微信, WeChatMainWndForPC,  
+
+Level: Info
+Date: 2023-09-20 16:14:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 102
+Data:mouse select pathToRoot pop: target:CWebviewHostWnd, CWebviewControlHostWnd,  
+
+Level: Info
+Date: 2023-09-20 16:14:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 102
+Data:mouse select pathToRoot pop: target:, Chrome_WidgetWin_0,  
+
+Level: Info
+Date: 2023-09-20 16:14:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 102
+Data:mouse select pathToRoot pop: target:, Chrome_RenderWidgetHostHWND, 14386112 
+
+Level: Info
+Date: 2023-09-20 16:14:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 102
+Data:mouse select pathToRoot pop: target:, ,  
+
+Level: Info
+Date: 2023-09-20 16:14:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:1930, y: 677
+

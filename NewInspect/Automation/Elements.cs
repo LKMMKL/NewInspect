@@ -27,6 +27,7 @@ namespace NewInspect.Automation
         public string runtimeId { get; set; }
         public bool offScreen { get; set; }
         public string controlType { get; set; }
+        public string rect { get; set; }
         public string rootId;
         public bool isSelected { get; set; }
         public bool isExpanded
@@ -57,6 +58,7 @@ namespace NewInspect.Automation
             this.automationId = curr.CurrentAutomationId;
             this.controlType  = $"{(ControlType)curr.CurrentControlType}";
             this.curr = curr;
+            this.rect = curr.GetHashCode().ToString();
             //this.runtimeId = Util.GetRuntimeIdStr(curr.GetRuntimeId());
             this.runtimeId = Util.GetRuntimeIdStr(curr.GetRuntimeId());
         }

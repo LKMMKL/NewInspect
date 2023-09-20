@@ -1,0 +1,288 @@
+Level: Info
+Date: 2023-09-20 14:59:19 
+File: D:\Projects\Github\NewInspect\NewInspect\MainWindow.xaml.cs
+Line: 37
+Data:MainWindow Setup
+
+Level: Info
+Date: 2023-09-20 14:59:24 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1403, y: 1551
+
+Level: Info
+Date: 2023-09-20 14:59:24 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 微信 - 1 个运行窗口
+
+Level: Info
+Date: 2023-09-20 14:59:24 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:6
+
+Level: Info
+Date: 2023-09-20 14:59:24 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 任务栏
+
+Level: Info
+Date: 2023-09-20 14:59:24 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: DesktopWindowXamlSource
+
+Level: Info
+Date: 2023-09-20 14:59:24 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 107
+Data:mouse select find element fail
+
+Level: Info
+Date: 2023-09-20 14:59:24 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 微信 - 1 个运行窗口
+
+Level: Info
+Date: 2023-09-20 14:59:26 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1938, y: 487
+
+Level: Info
+Date: 2023-09-20 14:59:26 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name i深圳
+
+Level: Info
+Date: 2023-09-20 14:59:26 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:11
+
+Level: Info
+Date: 2023-09-20 14:59:26 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:59:26 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: CWebviewHostWnd
+
+Level: Info
+Date: 2023-09-20 14:59:26 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 14:59:26 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 14:59:26 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 14:59:28 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 107
+Data:mouse select find element fail
+
+Level: Info
+Date: 2023-09-20 14:59:28 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name i深圳
+
+Level: Info
+Date: 2023-09-20 14:59:28 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1947, y: 487
+
+Level: Info
+Date: 2023-09-20 14:59:28 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name i深圳
+
+Level: Info
+Date: 2023-09-20 14:59:28 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:11
+
+Level: Info
+Date: 2023-09-20 14:59:28 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:59:28 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: CWebviewHostWnd
+
+Level: Info
+Date: 2023-09-20 14:59:28 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 14:59:28 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 14:59:28 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 14:59:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 107
+Data:mouse select find element fail
+
+Level: Info
+Date: 2023-09-20 14:59:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name i深圳
+
+Level: Info
+Date: 2023-09-20 14:59:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1961, y: 487
+
+Level: Info
+Date: 2023-09-20 14:59:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name i深圳
+
+Level: Info
+Date: 2023-09-20 14:59:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:11
+
+Level: Info
+Date: 2023-09-20 14:59:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:59:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: CWebviewHostWnd
+
+Level: Info
+Date: 2023-09-20 14:59:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 14:59:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 14:59:30 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 14:59:32 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 107
+Data:mouse select find element fail
+
+Level: Info
+Date: 2023-09-20 14:59:32 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name i深圳
+
+Level: Info
+Date: 2023-09-20 14:59:32 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1961, y: 487
+
+Level: Info
+Date: 2023-09-20 14:59:32 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name i深圳
+
+Level: Info
+Date: 2023-09-20 14:59:32 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:11
+
+Level: Info
+Date: 2023-09-20 14:59:32 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 微信
+
+Level: Info
+Date: 2023-09-20 14:59:32 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: CWebviewHostWnd
+
+Level: Info
+Date: 2023-09-20 14:59:32 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 14:59:32 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 14:59:32 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: 
+
+Level: Info
+Date: 2023-09-20 14:59:34 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 107
+Data:mouse select find element fail
+
+Level: Info
+Date: 2023-09-20 14:59:34 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name i深圳
+

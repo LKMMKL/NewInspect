@@ -1,0 +1,156 @@
+Level: Info
+Date: 2023-09-20 14:54:04 
+File: D:\Projects\Github\NewInspect\NewInspect\MainWindow.xaml.cs
+Line: 37
+Data:MainWindow Setup
+
+Level: Info
+Date: 2023-09-20 14:54:08 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1644, y: 661
+
+Level: Info
+Date: 2023-09-20 14:54:08 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name pcm_h5_msg
+
+Level: Info
+Date: 2023-09-20 14:54:08 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:54:08 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: pcm_h5_msg
+
+Level: Info
+Date: 2023-09-20 14:54:08 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name pcm_h5_msg
+
+Level: Info
+Date: 2023-09-20 14:54:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1640, y: 715
+
+Level: Info
+Date: 2023-09-20 14:54:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name pcm_h5_msg
+
+Level: Info
+Date: 2023-09-20 14:54:10 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:54:10 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: pcm_h5_msg
+
+Level: Info
+Date: 2023-09-20 14:54:10 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name pcm_h5_msg
+
+Level: Info
+Date: 2023-09-20 14:54:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1637, y: 717
+
+Level: Info
+Date: 2023-09-20 14:54:12 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name pcm_h5_msg
+
+Level: Info
+Date: 2023-09-20 14:54:12 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:54:12 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: pcm_h5_msg
+
+Level: Info
+Date: 2023-09-20 14:54:12 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name pcm_h5_msg
+
+Level: Info
+Date: 2023-09-20 14:54:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1518, y: 716
+
+Level: Info
+Date: 2023-09-20 14:54:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name pcm_h5_msg
+
+Level: Info
+Date: 2023-09-20 14:54:14 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:54:14 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: pcm_h5_msg
+
+Level: Info
+Date: 2023-09-20 14:54:14 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name pcm_h5_msg
+
+Level: Info
+Date: 2023-09-20 14:54:15 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1404, y: 151
+
+Level: Info
+Date: 2023-09-20 14:54:16 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name pcm_h5_msg
+
+Level: Info
+Date: 2023-09-20 14:54:16 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 89
+Data:mouse select pathToRoot count:1
+
+Level: Info
+Date: 2023-09-20 14:54:16 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 99
+Data:mouse select pathToRoot pop: pcm_h5_msg
+
+Level: Info
+Date: 2023-09-20 14:54:16 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name pcm_h5_msg
+

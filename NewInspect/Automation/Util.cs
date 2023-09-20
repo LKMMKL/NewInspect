@@ -15,6 +15,7 @@ namespace NewInspect.Automation
     {
         static IUIAutomationElement _rootElement;
         static CUIAutomation uia;
+        public static Action<Elements> func;
         static Util()
         {
             uia = new CUIAutomation();
@@ -46,10 +47,11 @@ namespace NewInspect.Automation
                 source.children.Clear();
             });
 
-            IUIAutomationElementArray arry = source.curr.FindAll(TreeScope.TreeScope_Children, uia.CreateTrueCondition());
-            for (int i = 0; i < arry.Length; i++)
+            //IUIAutomationElementArray arry = source.curr.FindAll(TreeScope.TreeScope_Children, uia.CreateTrueCondition());
+            List<IUIAutomationElement> arry = GetSubElementInfo(source.curr);
+            for (int i = 0; i < arry.Count; i++)
             {
-                var ele = new Elements(source.rootId, arry.GetElement(i));
+                var ele = new Elements(source.rootId, arry[i]);
                 System.Windows.Application.Current.Dispatcher.Invoke(() =>
                 {
                     source.children.Add(ele);
@@ -61,10 +63,36 @@ namespace NewInspect.Automation
 
             }
         }
+        public static List<IUIAutomationElement> GetSubElementInfo(IUIAutomationElement source)
+        {
+            var listResult = new List<IUIAutomationElement>();
+
+            IUIAutomation uiAutomation = new CUIAutomation();
+            IUIAutomationTreeWalker treeWalker = uiAutomation.CreateTreeWalker(uiAutomation.CreateTrueCondition());
+            IUIAutomationElement subControl = treeWalker.GetFirstChildElement(source);
+            if (subControl == null)
+            {
+                return listResult;
+            }
+
+            listResult.Add(subControl);
+
+            IUIAutomationElement nextSubControl = treeWalker.GetNextSiblingElement(subControl);
+            if (nextSubControl == null) return listResult;
+            while (nextSubControl != null)
+            {
+                listResult.Add(nextSubControl);
+                nextSubControl = treeWalker.GetNextSiblingElement(nextSubControl);
+            }
+
+            return listResult;
+        }
 
         public static void MouseSelect(IUIAutomationElement obj, Elements rootElement)
         {
+            DateTime before = DateTime.Now;
             IUIAutomationElement s = obj;
+            CUIAutomation cui = new CUIAutomation();
             var pathToRoot = new Stack<IUIAutomationElement>();
             IUIAutomationTreeWalker walker = uia.RawViewWalker;
             while (obj != null)
@@ -83,10 +111,11 @@ namespace NewInspect.Automation
                 catch (Exception ex)
                 {
                     // TODO: Log
-                    Console.WriteLine($"Exception: {ex.Message}");
+                    Logger.Error($"Exception: {ex.Message}");
                 }
             }
-
+   
+            //Logger.Info($"mouse select pathToRoot count:{pathToRoot.Count}, target:{s.CurrentName}, {s.CurrentClassName}, {s.CurrentAutomationId} ");
             Elements elementVm = rootElement;
             //pathToRoot 一定是桌面 sub item
             while (pathToRoot.Count > 0)
@@ -95,14 +124,19 @@ namespace NewInspect.Automation
                 //{
                 //    tmp.isExpanded = true;
                 //});
-
                 var elementOnPath = pathToRoot.Pop();
-                var nextElementVm = elementVm.children.FirstOrDefault(child => child.runtimeId.Equals(Util.GetRuntimeIdStr(elementOnPath.GetRuntimeId())));
+                
+                //Logger.Info($"mouse select pathToRoot pop: target:{elementOnPath.CurrentName}, {elementOnPath.CurrentClassName}, {elementOnPath.CurrentAutomationId}, {GetRuntimeIdStr(elementOnPath.GetRuntimeId())} ");
+                var nextElementVm = elementVm.children.FirstOrDefault(child => cui.CompareElements(child.curr,elementOnPath)==1);
                 if (nextElementVm == null)
                 {
                     LoadChildren(elementVm, true);
-                    nextElementVm = elementVm.children.FirstOrDefault(child => child.runtimeId.Equals(Util.GetRuntimeIdStr(elementOnPath.GetRuntimeId())));
-                    if (nextElementVm == null) return;
+                    nextElementVm = elementVm.children.FirstOrDefault(child => cui.CompareElements(child.curr, elementOnPath) == 1);
+                    if (nextElementVm == null)
+                    {
+                        Logger.Error($"mouse select find element fail");
+                        return;
+                    }
                 }
                 elementVm = nextElementVm;
                 if (!elementVm.isExpanded)
@@ -112,6 +146,13 @@ namespace NewInspect.Automation
                 
             }
             elementVm.isSelected = true;
+            System.Windows.Application.Current.Dispatcher.Invoke(() =>
+            {
+                func(elementVm);
+            });
+            TimeSpan timeSpan =  DateTime.Now.Subtract(before);
+            Logger.Info($"time span {timeSpan.TotalSeconds}");
+            
         }
 
         public static void GetAllSupportPattern(ObservableCollection<EleDetail> dict, IUIAutomationElement source)

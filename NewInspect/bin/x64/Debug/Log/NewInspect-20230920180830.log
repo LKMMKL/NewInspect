@@ -1,0 +1,42 @@
+Level: Info
+Date: 2023-09-20 18:08:30 
+File: D:\Projects\Github\NewInspect\NewInspect\MainWindow.xaml.cs
+Line: 38
+Data:MainWindow Setup
+
+Level: Info
+Date: 2023-09-20 18:08:37 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:2092, y: 669
+
+Level: Info
+Date: 2023-09-20 18:08:37 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 六点半
+
+Level: Info
+Date: 2023-09-20 18:08:39 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 154
+Data:time span 1.5266589
+
+Level: Info
+Date: 2023-09-20 18:08:39 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 六点半
+
+Level: Info
+Date: 2023-09-20 18:08:39 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:2092, y: 669
+
+Level: Info
+Date: 2023-09-20 18:08:41 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1598, y: 294
+

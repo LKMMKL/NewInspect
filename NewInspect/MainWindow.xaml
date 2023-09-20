@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NewInspect"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" MouseLeave="Window_MouseLeave" MouseEnter="Window_MouseEnter">
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="VisibilityOfBool" />
     </Window.Resources>

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Input;
 using System.Windows.Shapes;
 using UIAutomationClient;
 using Point = System.Drawing.Point;
@@ -22,6 +23,7 @@ namespace NewInspect.Automation
         public static Elements root;
         public static bool flag = true;
         public static IUIAutomationElement activeEle = null;
+        public static Func<bool> mouseFunc;
         public static void DrawHightLight(tagRECT r)
         {
             if (draw_task != null)
@@ -85,11 +87,18 @@ namespace NewInspect.Automation
 
         private static void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
+            if (!mouseFunc.Invoke())
+            {
+                Logger.Info("mouse curor in main window");
+                return;
+            }
             Point point = new Point();
             tagPOINT tp = new tagPOINT();
             Win32API.GetCursorPos(out point);
             tp.y = point.Y;
             tp.x = point.X;
+
+            Logger.Info($"time elapsed..");
             // 指针在主窗口内
             if (false)
             {
@@ -102,13 +111,15 @@ namespace NewInspect.Automation
                     {
                         CUIAutomation uia = new CUIAutomation();
                         IUIAutomationElement ele = uia.ElementFromPoint(tp);
-                        
-                        if (ele != null && ele != activeEle)
+                        var currName = ele.CurrentName;
+                        if (activeEle==null || (ele != null && uia.CompareElements(ele, activeEle)!=1))
                         {
+                            Logger.Info($"mouse select start: element name {currName}");
                             activeEle = ele;
                             flag = false;
                             Util.MouseSelect(ele, (Elements)root);
                             flag = true;
+                            Logger.Info($"mouse select end: element name {currName}");
                         }
                         
                     }
@@ -116,7 +127,7 @@ namespace NewInspect.Automation
                 }
                 catch (Exception ex)
                 {
-                    string v = ex.Message;
+                    Logger.Error(ex.Message);
                 }
             }
         }

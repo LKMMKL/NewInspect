@@ -1,0 +1,1038 @@
+Level: Info
+Date: 2023-09-20 17:45:54 
+File: D:\Projects\Github\NewInspect\NewInspect\MainWindow.xaml.cs
+Line: 37
+Data:MainWindow Setup
+
+Level: Info
+Date: 2023-09-20 17:46:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:575, y: 978
+
+Level: Info
+Date: 2023-09-20 17:46:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 项目视图
+
+Level: Info
+Date: 2023-09-20 17:46:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:7, target:项目视图, UIItemsView,  
+
+Level: Info
+Date: 2023-09-20 17:46:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:Log, CabinetWClass, , 42,1050334 
+
+Level: Info
+Date: 2023-09-20 17:46:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:Log, ShellTabWindowClass, , 42,1379210 
+
+Level: Info
+Date: 2023-09-20 17:46:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, DUIViewWndClassName, , 42,334232 
+
+Level: Info
+Date: 2023-09-20 17:46:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:浏览器窗格, HWNDView, main, 42,1377822 
+
+Level: Info
+Date: 2023-09-20 17:46:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:文件夹布局窗格, Element, FolderLayoutContainer, 5544,551145664,0 
+
+Level: Info
+Date: 2023-09-20 17:46:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:Shell 文件夹视图, DUIListView, listview, 42,5637594 
+
+Level: Info
+Date: 2023-09-20 17:46:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:项目视图, UIItemsView, , 42,3869382 
+
+Level: Info
+Date: 2023-09-20 17:46:02 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 项目视图
+
+Level: Info
+Date: 2023-09-20 17:46:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:60, y: 1558
+
+Level: Info
+Date: 2023-09-20 17:46:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 开始
+
+Level: Info
+Date: 2023-09-20 17:46:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:6, target:开始, ToggleButton, StartButton 
+
+Level: Info
+Date: 2023-09-20 17:46:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:任务栏, Shell_TrayWnd, , 42,262286 
+
+Level: Info
+Date: 2023-09-20 17:46:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:DesktopWindowXamlSource, Windows.UI.Composition.DesktopWindowContentBridge, , 42,66712 
+
+Level: Info
+Date: 2023-09-20 17:46:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, Windows.UI.Input.InputSite.WindowClass, , 42,66714 
+
+Level: Info
+Date: 2023-09-20 17:46:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, Taskbar.TaskbarFrameAutomationPeer, TaskbarFrame, 42,66714,4,21 
+
+Level: Info
+Date: 2023-09-20 17:46:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , TaskbarFrameRepeater, 42,66714,4,2 
+
+Level: Info
+Date: 2023-09-20 17:46:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:开始, ToggleButton, StartButton, 42,66714,4,3 
+
+Level: Info
+Date: 2023-09-20 17:46:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 开始
+
+Level: Info
+Date: 2023-09-20 17:46:05 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:244, y: 1317
+
+Level: Info
+Date: 2023-09-20 17:46:05 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 
+
+Level: Info
+Date: 2023-09-20 17:46:05 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:2, target:, , LauncherFrameXAMLWindow 
+
+Level: Info
+Date: 2023-09-20 17:46:05 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:开始, Windows.UI.Core.CoreWindow, , 42,131994 
+
+Level: Info
+Date: 2023-09-20 17:46:07 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:False, x:245, y: 1031
+
+Level: Info
+Date: 2023-09-20 17:46:08 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , LauncherFrameXAMLWindow, 42,131994,4,1 
+
+Level: Info
+Date: 2023-09-20 17:46:08 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 
+
+Level: Info
+Date: 2023-09-20 17:46:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:245, y: 1031
+
+Level: Info
+Date: 2023-09-20 17:46:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 最近添加
+
+Level: Info
+Date: 2023-09-20 17:46:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:5, target:最近添加, TextBlock, Subtitle 
+
+Level: Info
+Date: 2023-09-20 17:46:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:开始, Windows.UI.Core.CoreWindow, , 42,131994 
+
+Level: Info
+Date: 2023-09-20 17:46:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , LauncherFrameXAMLWindow, 42,131994,4,1 
+
+Level: Info
+Date: 2023-09-20 17:46:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:推荐的项目, GridView, RecommendedList, 42,131994,4,3 
+
+Level: Info
+Date: 2023-09-20 17:46:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:LAVIEかんたん設定 最近添加, GridViewItem, RecommendedItemRoot0, 42,131994,4,9 
+
+Level: Info
+Date: 2023-09-20 17:46:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:最近添加, TextBlock, Subtitle, 42,131994,4,11 
+
+Level: Info
+Date: 2023-09-20 17:46:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 最近添加
+
+Level: Info
+Date: 2023-09-20 17:46:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1446, y: 674
+
+Level: Info
+Date: 2023-09-20 17:46:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 
+
+Level: Info
+Date: 2023-09-20 17:46:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:2, target:, Window,  
+
+Level: Info
+Date: 2023-09-20 17:46:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:MainWindow, Window, , 42,1704354 
+
+Level: Info
+Date: 2023-09-20 17:46:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, Window, , 42,331784 
+
+Level: Info
+Date: 2023-09-20 17:46:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 
+
+Level: Info
+Date: 2023-09-20 17:46:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:1355, y: 270
+
+Level: Info
+Date: 2023-09-20 17:46:15 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:-1216, y: 939
+
+Level: Info
+Date: 2023-09-20 17:46:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:98, y: 1533
+
+Level: Info
+Date: 2023-09-20 17:46:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 开始
+
+Level: Info
+Date: 2023-09-20 17:46:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:6, target:开始, ToggleButton, StartButton 
+
+Level: Info
+Date: 2023-09-20 17:46:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:任务栏, Shell_TrayWnd, , 42,262286 
+
+Level: Info
+Date: 2023-09-20 17:46:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:DesktopWindowXamlSource, Windows.UI.Composition.DesktopWindowContentBridge, , 42,66712 
+
+Level: Info
+Date: 2023-09-20 17:46:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, Windows.UI.Input.InputSite.WindowClass, , 42,66714 
+
+Level: Info
+Date: 2023-09-20 17:46:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, Taskbar.TaskbarFrameAutomationPeer, TaskbarFrame, 42,66714,4,21 
+
+Level: Info
+Date: 2023-09-20 17:46:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , TaskbarFrameRepeater, 42,66714,4,2 
+
+Level: Info
+Date: 2023-09-20 17:46:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:开始, ToggleButton, StartButton, 42,66714,4,3 
+
+Level: Info
+Date: 2023-09-20 17:46:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 开始
+
+Level: Info
+Date: 2023-09-20 17:46:19 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:596, y: 574
+
+Level: Info
+Date: 2023-09-20 17:46:19 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 设置
+
+Level: Info
+Date: 2023-09-20 17:46:19 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:5, target:设置, GridViewItem, tile-P~windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel 
+
+Level: Info
+Date: 2023-09-20 17:46:19 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:开始, Windows.UI.Core.CoreWindow, , 42,131994 
+
+Level: Info
+Date: 2023-09-20 17:46:19 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , LauncherFrameXAMLWindow, 42,131994,4,1 
+
+Level: Info
+Date: 2023-09-20 17:46:19 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, StartMenu.PinnedListAutomationPeer, StartMenuPinnedList, 42,131994,4,6 
+
+Level: Info
+Date: 2023-09-20 17:46:19 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:已固定, GridView, PinnedList, 42,131994,4,19 
+
+Level: Info
+Date: 2023-09-20 17:46:19 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:设置, GridViewItem, tile-P~windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel, 42,131994,4,34 
+
+Level: Info
+Date: 2023-09-20 17:46:19 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 设置
+
+Level: Info
+Date: 2023-09-20 17:46:21 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:596, y: 574
+
+Level: Info
+Date: 2023-09-20 17:46:23 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:581, y: 554
+
+Level: Info
+Date: 2023-09-20 17:46:25 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:581, y: 554
+
+Level: Info
+Date: 2023-09-20 17:46:27 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:581, y: 554
+
+Level: Info
+Date: 2023-09-20 17:46:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:200, y: 973
+
+Level: Info
+Date: 2023-09-20 17:46:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name LAVIEかんたん設定 最近添加
+
+Level: Info
+Date: 2023-09-20 17:46:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:4, target:LAVIEかんたん設定 最近添加, GridViewItem, RecommendedItemRoot0 
+
+Level: Info
+Date: 2023-09-20 17:46:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:开始, Windows.UI.Core.CoreWindow, , 42,131994 
+
+Level: Info
+Date: 2023-09-20 17:46:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , LauncherFrameXAMLWindow, 42,131994,4,1 
+
+Level: Info
+Date: 2023-09-20 17:46:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:推荐的项目, GridView, RecommendedList, 42,131994,4,3 
+
+Level: Info
+Date: 2023-09-20 17:46:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:LAVIEかんたん設定 最近添加, GridViewItem, RecommendedItemRoot0, 42,131994,4,9 
+
+Level: Info
+Date: 2023-09-20 17:46:29 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name LAVIEかんたん設定 最近添加
+
+Level: Info
+Date: 2023-09-20 17:46:31 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:209, y: 1006
+
+Level: Info
+Date: 2023-09-20 17:46:33 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:237, y: 1007
+
+Level: Info
+Date: 2023-09-20 17:46:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:263, y: 1008
+
+Level: Info
+Date: 2023-09-20 17:46:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 最近添加
+
+Level: Info
+Date: 2023-09-20 17:46:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:5, target:最近添加, TextBlock, Subtitle 
+
+Level: Info
+Date: 2023-09-20 17:46:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:开始, Windows.UI.Core.CoreWindow, , 42,131994 
+
+Level: Info
+Date: 2023-09-20 17:46:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , LauncherFrameXAMLWindow, 42,131994,4,1 
+
+Level: Info
+Date: 2023-09-20 17:46:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:推荐的项目, GridView, RecommendedList, 42,131994,4,3 
+
+Level: Info
+Date: 2023-09-20 17:46:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:LAVIEかんたん設定 最近添加, GridViewItem, RecommendedItemRoot0, 42,131994,4,9 
+
+Level: Info
+Date: 2023-09-20 17:46:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:最近添加, TextBlock, Subtitle, 42,131994,4,11 
+
+Level: Info
+Date: 2023-09-20 17:46:35 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 最近添加
+
+Level: Info
+Date: 2023-09-20 17:46:37 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:263, y: 1008
+
+Level: Info
+Date: 2023-09-20 17:46:39 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:263, y: 1008
+
+Level: Info
+Date: 2023-09-20 17:46:41 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:735, y: 1020
+
+Level: Info
+Date: 2023-09-20 17:46:41 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name LAVIEかんたん設定 最近添加
+
+Level: Info
+Date: 2023-09-20 17:46:41 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:4, target:LAVIEかんたん設定 最近添加, GridViewItem, RecommendedItemRoot1 
+
+Level: Info
+Date: 2023-09-20 17:46:41 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:开始, Windows.UI.Core.CoreWindow, , 42,131994 
+
+Level: Info
+Date: 2023-09-20 17:46:41 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , LauncherFrameXAMLWindow, 42,131994,4,1 
+
+Level: Info
+Date: 2023-09-20 17:46:41 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:推荐的项目, GridView, RecommendedList, 42,131994,4,3 
+
+Level: Info
+Date: 2023-09-20 17:46:41 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:LAVIEかんたん設定 最近添加, GridViewItem, RecommendedItemRoot1, 42,131994,4,24 
+
+Level: Info
+Date: 2023-09-20 17:46:41 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name LAVIEかんたん設定 最近添加
+
+Level: Info
+Date: 2023-09-20 17:46:43 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:742, y: 1020
+
+Level: Info
+Date: 2023-09-20 17:46:45 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:742, y: 1020
+
+Level: Info
+Date: 2023-09-20 17:46:47 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:742, y: 1020
+
+Level: Info
+Date: 2023-09-20 17:46:49 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:742, y: 1020
+
+Level: Info
+Date: 2023-09-20 17:46:51 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:750, y: 1020
+
+Level: Info
+Date: 2023-09-20 17:46:53 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:767, y: 1018
+
+Level: Info
+Date: 2023-09-20 17:46:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:-1271, y: 1566
+
+Level: Info
+Date: 2023-09-20 17:46:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 
+
+Level: Info
+Date: 2023-09-20 17:46:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:2, target:, Window,  
+
+Level: Info
+Date: 2023-09-20 17:46:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:MainWindow, Window, , 42,1704354 
+
+Level: Info
+Date: 2023-09-20 17:46:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, Window, , 42,331784 
+
+Level: Info
+Date: 2023-09-20 17:46:55 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 
+
+Level: Info
+Date: 2023-09-20 17:46:57 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:-1286, y: 1232
+
+Level: Info
+Date: 2023-09-20 17:46:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:59, y: 1563
+
+Level: Info
+Date: 2023-09-20 17:46:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 开始
+
+Level: Info
+Date: 2023-09-20 17:46:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:6, target:开始, ToggleButton, StartButton 
+
+Level: Info
+Date: 2023-09-20 17:46:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:任务栏, Shell_TrayWnd, , 42,262286 
+
+Level: Info
+Date: 2023-09-20 17:46:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:DesktopWindowXamlSource, Windows.UI.Composition.DesktopWindowContentBridge, , 42,66712 
+
+Level: Info
+Date: 2023-09-20 17:46:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, Windows.UI.Input.InputSite.WindowClass, , 42,66714 
+
+Level: Info
+Date: 2023-09-20 17:46:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, Taskbar.TaskbarFrameAutomationPeer, TaskbarFrame, 42,66714,4,21 
+
+Level: Info
+Date: 2023-09-20 17:46:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , TaskbarFrameRepeater, 42,66714,4,2 
+
+Level: Info
+Date: 2023-09-20 17:46:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:开始, ToggleButton, StartButton, 42,66714,4,3 
+
+Level: Info
+Date: 2023-09-20 17:46:59 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 开始
+
+Level: Info
+Date: 2023-09-20 17:47:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:178, y: 1424
+
+Level: Info
+Date: 2023-09-20 17:47:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name lkm 的用户帐户
+
+Level: Info
+Date: 2023-09-20 17:47:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:4, target:lkm 的用户帐户, Button, UserTileButton 
+
+Level: Info
+Date: 2023-09-20 17:47:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:开始, Windows.UI.Core.CoreWindow, , 42,131994 
+
+Level: Info
+Date: 2023-09-20 17:47:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , LauncherFrameXAMLWindow, 42,131994,4,1 
+
+Level: Info
+Date: 2023-09-20 17:47:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , NavigationPane, 42,131994,4,14 
+
+Level: Info
+Date: 2023-09-20 17:47:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:lkm 的用户帐户, Button, UserTileButton, 42,131994,4,31 
+
+Level: Info
+Date: 2023-09-20 17:47:01 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name lkm 的用户帐户
+
+Level: Info
+Date: 2023-09-20 17:47:03 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:184, y: 1424
+
+Level: Info
+Date: 2023-09-20 17:47:05 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:211, y: 1424
+
+Level: Info
+Date: 2023-09-20 17:47:07 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:211, y: 1424
+
+Level: Info
+Date: 2023-09-20 17:47:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:226, y: 1253
+
+Level: Info
+Date: 2023-09-20 17:47:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name FlaUInspect.sln 2 小时前 D:\Projects\Github\FlaUInspect\src
+
+Level: Info
+Date: 2023-09-20 17:47:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:4, target:FlaUInspect.sln 2 小时前 D:\Projects\Github\FlaUInspect\src, GridViewItem, RecommendedItemRoot4 
+
+Level: Info
+Date: 2023-09-20 17:47:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:开始, Windows.UI.Core.CoreWindow, , 42,131994 
+
+Level: Info
+Date: 2023-09-20 17:47:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , LauncherFrameXAMLWindow, 42,131994,4,1 
+
+Level: Info
+Date: 2023-09-20 17:47:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:推荐的项目, GridView, RecommendedList, 42,131994,4,3 
+
+Level: Info
+Date: 2023-09-20 17:47:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:FlaUInspect.sln 2 小时前 D:\Projects\Github\FlaUInspect\src, GridViewItem, RecommendedItemRoot4, 42,131994,4,28 
+
+Level: Info
+Date: 2023-09-20 17:47:09 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name FlaUInspect.sln 2 小时前 D:\Projects\Github\FlaUInspect\src
+
+Level: Info
+Date: 2023-09-20 17:47:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:242, y: 1122
+
+Level: Info
+Date: 2023-09-20 17:47:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 最近添加
+
+Level: Info
+Date: 2023-09-20 17:47:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:5, target:最近添加, TextBlock, Subtitle 
+
+Level: Info
+Date: 2023-09-20 17:47:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:开始, Windows.UI.Core.CoreWindow, , 42,131994 
+
+Level: Info
+Date: 2023-09-20 17:47:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , LauncherFrameXAMLWindow, 42,131994,4,1 
+
+Level: Info
+Date: 2023-09-20 17:47:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:推荐的项目, GridView, RecommendedList, 42,131994,4,3 
+
+Level: Info
+Date: 2023-09-20 17:47:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:Family 最近添加, GridViewItem, RecommendedItemRoot2, 42,131994,4,25 
+
+Level: Info
+Date: 2023-09-20 17:47:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:最近添加, TextBlock, Subtitle, 42,131994,4,74 
+
+Level: Info
+Date: 2023-09-20 17:47:11 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 最近添加
+
+Level: Info
+Date: 2023-09-20 17:47:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:199, y: 1122
+
+Level: Info
+Date: 2023-09-20 17:47:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name Family 最近添加
+
+Level: Info
+Date: 2023-09-20 17:47:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:4, target:Family 最近添加, GridViewItem, RecommendedItemRoot2 
+
+Level: Info
+Date: 2023-09-20 17:47:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:开始, Windows.UI.Core.CoreWindow, , 42,131994 
+
+Level: Info
+Date: 2023-09-20 17:47:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, , LauncherFrameXAMLWindow, 42,131994,4,1 
+
+Level: Info
+Date: 2023-09-20 17:47:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:推荐的项目, GridView, RecommendedList, 42,131994,4,3 
+
+Level: Info
+Date: 2023-09-20 17:47:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:Family 最近添加, GridViewItem, RecommendedItemRoot2, 42,131994,4,25 
+
+Level: Info
+Date: 2023-09-20 17:47:13 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name Family 最近添加
+
+Level: Info
+Date: 2023-09-20 17:47:15 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:199, y: 1122
+
+Level: Info
+Date: 2023-09-20 17:47:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 93
+Data:time elapsed, flag:True, x:-100, y: 1904
+
+Level: Info
+Date: 2023-09-20 17:47:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 109
+Data:mouse select start: element name 结果
+
+Level: Info
+Date: 2023-09-20 17:47:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 116
+Data:mouse select pathToRoot count:11, target:结果, ListView, Tracking List View 
+
+Level: Info
+Date: 2023-09-20 17:47:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:NewInspect (正在运行) - Microsoft Visual Studio(管理员), Window, VisualStudioMainWindow, 42,922152 
+
+Level: Info
+Date: 2023-09-20 17:47:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, DockRoot, , 7,46260,5886646 
+
+Level: Info
+Date: 2023-09-20 17:47:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:诊断工具, ViewPresenter, ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}, 7,46260,58740229 
+
+Level: Info
+Date: 2023-09-20 17:47:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, HwndHost, , 7,46260,7284856 
+
+Level: Info
+Date: 2023-09-20 17:47:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:诊断工具, GenericPane, , 42,4723978 
+
+Level: Info
+Date: 2023-09-20 17:47:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, Pane, , 42,2495036 
+
+Level: Info
+Date: 2023-09-20 17:47:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, TabControl, , 7,46260,53424339 
+
+Level: Info
+Date: 2023-09-20 17:47:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:事件, TabItem, , 7,46260,12697392 
+
+Level: Info
+Date: 2023-09-20 17:47:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, EventTableControl, UserControl_1, 7,46260,28106775 
+
+Level: Info
+Date: 2023-09-20 17:47:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:, WrapListView, , 7,46260,62056317 
+
+Level: Info
+Date: 2023-09-20 17:47:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\Util.cs
+Line: 127
+Data:mouse select pathToRoot pop: target:结果, ListView, Tracking List View, 7,46260,21635946 
+
+Level: Info
+Date: 2023-09-20 17:47:17 
+File: D:\Projects\Github\NewInspect\NewInspect\Automation\HightLight.cs
+Line: 114
+Data:mouse select end: element name 结果
+
