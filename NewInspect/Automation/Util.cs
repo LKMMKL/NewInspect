@@ -133,7 +133,7 @@ namespace NewInspect.Automation
                 //});
                 var elementOnPath = pathToRoot.Pop();
 
-                Logger.Info($"mouse select pathToRoot pop: target:{elementOnPath.CurrentName}, {elementOnPath.CurrentClassName}, {elementOnPath.CurrentAutomationId}, {GetRuntimeIdStr(elementOnPath.GetRuntimeId())} ");
+                Logger.Info($"mouse select pathToRoot pop: target:{elementOnPath.CurrentName}, {elementOnPath.CurrentClassName}, {elementOnPath.CurrentAutomationId} ");
                 var nextElementVm = elementVm.children.FirstOrDefault(child => cui.CompareElements(child.curr, elementOnPath) == 1);
                 if (nextElementVm == null)
                 {

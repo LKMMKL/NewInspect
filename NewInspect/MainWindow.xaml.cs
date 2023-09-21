@@ -35,7 +35,6 @@ namespace NewInspect
             Height = 550;
             Width = 700;
             Loaded += MainWindow_Loaded;
-            Util.func = selectedChange;
             HightLight.mouseFunc = GetMouseDetectState;
             Logger.Info("MainWindow Setup");
         }

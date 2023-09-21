@@ -24,7 +24,6 @@ namespace NewInspect.Automation
         //public string name { get; set; }
         public string className { get; set; }
         public string automationId { get; set; }
-        public string runtimeId { get; set; }
         public bool offScreen { get; set; }
         public string controlType { get; set; }
         public string rect { get; set; }
@@ -67,8 +66,6 @@ namespace NewInspect.Automation
             this.controlType  = $"{(ControlType)curr.CurrentControlType}";
             this.curr = curr;
             this.rect = curr.GetHashCode().ToString();
-            //this.runtimeId = Util.GetRuntimeIdStr(curr.GetRuntimeId());
-            this.runtimeId = Util.GetRuntimeIdStr(curr.GetRuntimeId());
         }
 
         private void LoadChildren(bool v)
