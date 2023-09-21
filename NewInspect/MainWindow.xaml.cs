@@ -33,20 +33,34 @@ namespace NewInspect
         public MainWindow()
         {
             InitializeComponent();
-            Height = 550;
+            Height = 650;
             Width = 700;
             Loaded += MainWindow_Loaded;
             HightLight.mouseFunc = GetMouseDetectState;
+            this.dataPanel.Visibility= Visibility.Collapsed;
             Logger.Info("MainWindow Setup");
         }
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            var r = Util.LoadDesktop();
-            list.Add(r);
-            this.treeview.ItemsSource = list;
-            this.details.ItemsSource = dict;
-            HightLight.MouseDetect(list[0]);
+            Task.Run(() =>
+            {
+                DateTime before = DateTime.Now;
+                var r = Util.LoadDesktop();
+                list.Add(r);
+                Application.Current.Dispatcher.Invoke(() =>
+                {
+                    this.treeview.ItemsSource = list;
+                    this.details.ItemsSource = dict;
+                    this.loading.Visibility = Visibility.Hidden;
+                    this.dataPanel.Visibility = Visibility.Visible;
+                });
+                
+                TimeSpan timeSpan = DateTime.Now.Subtract(before);
+                HightLight.MouseDetect(list[0]);
+                
+            });
+            
         }
 
         private void TreeViewSelectedHandler(object sender, RoutedEventArgs e)

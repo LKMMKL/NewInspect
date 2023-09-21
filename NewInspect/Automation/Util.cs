@@ -97,7 +97,7 @@ namespace NewInspect.Automation
             while (obj != null)
             {
                 // Break on circular relationship (should not happen?)
-                if (pathToRoot.Contains(obj) || obj.CurrentName.Equals(rootElement.name))
+                if (pathToRoot.Contains(obj) || rootElement.name.Equals(obj.CurrentName))
                 {
                     break;
                 }
@@ -159,6 +159,8 @@ namespace NewInspect.Automation
 
         public static void GetAllSupportPattern(ObservableCollection<EleDetail> dict, IUIAutomationElement source)
         {
+            dict.Add(new EleDetail { key = $"MouseMove", value = "true", isPattern = true });
+            dict.Add(new EleDetail { key = $"MouseClick", value = "true", isPattern = true });
             foreach (PatternId p in Enum.GetValues(typeof(PatternId)))
             {
                 int id = (int)p;

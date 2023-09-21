@@ -32,7 +32,7 @@ namespace NewInspect.Automation
                 ResetToken();
             }
             var ct = tokenSource.Token;
-            Rectangle rect = new Rectangle(r.left - 2, r.top - 2, r.right - r.left + 2, r.bottom - r.top + 2);
+            Rectangle rect = new Rectangle(r.left - 4, r.top - 4, r.right - r.left + 4, r.bottom - r.top + 4);
             draw_task = new Task(() =>
             {
                 //IntPtr desktop = Win32API.GetDC(IntPtr.Zero);
@@ -51,7 +51,7 @@ namespace NewInspect.Automation
                 ////InvalidateRect(IntPtr.Zero,r , true);
                 //Win32API.InvalidateRect(IntPtr.Zero, r1, true);
                 IntPtr desktop = Win32API.GetDC(IntPtr.Zero);
-                Pen myPen = new Pen(System.Drawing.Color.BlueViolet, 2);
+                Pen myPen = new Pen(System.Drawing.Color.BlueViolet, 3);
                 Graphics g = Graphics.FromHdc(desktop);
                 while (!ct.IsCancellationRequested)
                 {

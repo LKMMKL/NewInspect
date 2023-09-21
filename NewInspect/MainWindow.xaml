@@ -9,9 +9,67 @@
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="VisibilityOfBool" />
     </Window.Resources>
+    
     <Grid>
-        <DockPanel>
+        <Grid x:Name="loading" Background="White" HorizontalAlignment="Center" Panel.ZIndex="100">
+            <Grid.Resources>
+                <Style x:Key="rec" TargetType="Rectangle">
+                    <Setter Property="Width" Value="10"/>
+                    <Setter Property="Height" Value="30"/>
+                    <Setter Property="Fill" Value="Gray"/>
+                </Style>
+                <PowerEase x:Key="powerEase" Power="3" EasingMode="EaseInOut"/>
+            </Grid.Resources>
+            <Grid.Triggers>
+                <EventTrigger RoutedEvent="Loaded">
+                    <BeginStoryboard>
+                        <Storyboard RepeatBehavior="Forever" Storyboard.TargetProperty="Height">
+                            <DoubleAnimation Storyboard.TargetName="rec1" To="50" BeginTime="0:0:0.0" Duration="0:0:0.5" EasingFunction="{StaticResource powerEase}" AutoReverse="True"/>
+                            <DoubleAnimation Storyboard.TargetName="rec2" To="50" BeginTime="0:0:0.2" Duration="0:0:0.5" EasingFunction="{StaticResource powerEase}" AutoReverse="True"/>
+                            <DoubleAnimation Storyboard.TargetName="rec3" To="50" BeginTime="0:0:0.4" Duration="0:0:0.5" EasingFunction="{StaticResource powerEase}" AutoReverse="True"/>
+                            <DoubleAnimation Storyboard.TargetName="rec4" To="50" BeginTime="0:0:0.6" Duration="0:0:0.5" EasingFunction="{StaticResource powerEase}" AutoReverse="True"/>
+                            <DoubleAnimation Storyboard.TargetName="rec5" To="50" BeginTime="0:0:0.8" Duration="0:0:0.5" EasingFunction="{StaticResource powerEase}" AutoReverse="True"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Grid.Triggers>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15"/>
+                <ColumnDefinition Width="15"/>
+                <ColumnDefinition Width="15"/>
+                <ColumnDefinition Width="15"/>
+                <ColumnDefinition Width="15"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Loading"
+           FontSize="18"
+           FontFamily="Times New Roman"
+           Foreground="#252c41"
+           FontWeight="Bold"
+           Grid.ColumnSpan="5"
+           VerticalContentAlignment="Center"
+           HorizontalContentAlignment="Center"
+           Margin="0,80,0,0"/>
+            <Rectangle Name="rec1" Grid.Column="0" Style="{StaticResource rec}"/>
+            <Rectangle Name="rec2" Grid.Column="1" Style="{StaticResource rec}"/>
+            <Rectangle Name="rec3" Grid.Column="2" Style="{StaticResource rec}"/>
+            <Rectangle Name="rec4" Grid.Column="3" Style="{StaticResource rec}"/>
+            <Rectangle Name="rec5" Grid.Column="4" Style="{StaticResource rec}"/>
+        </Grid>
+
+        <DockPanel x:Name="dataPanel">
             <Grid>
+                <Grid.Resources>
+                    <DrawingBrush x:Key="brush" Stretch="None" AlignmentX="Center" AlignmentY="Top">
+                        <DrawingBrush.Drawing>
+                            <GeometryDrawing Brush="Black">
+                                <GeometryDrawing.Geometry>
+                                    <EllipseGeometry RadiusX="2" RadiusY="5"/>
+                                </GeometryDrawing.Geometry>
+                            </GeometryDrawing>
+                        </DrawingBrush.Drawing>
+                    </DrawingBrush>
+                </Grid.Resources>
+                
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*"/>
                     <ColumnDefinition Width="5"/>
