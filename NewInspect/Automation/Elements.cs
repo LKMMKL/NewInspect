@@ -20,14 +20,21 @@ namespace NewInspect.Automation
     }
     public class Elements : INotifyPropertyChanged
     {
+        // 桌面下子节点
+        public string firstName; 
+        public string firstClassname; 
+        // 未进行格式化的控件名
+        public string nativeName { get; set; }
+        // 格式化后的控件名
         public string name { get; set; }
-        //public string name { get; set; }
+
         public string className { get; set; }
         public string automationId { get; set; }
         public bool offScreen { get; set; }
         public string controlType { get; set; }
-        public string rect { get; set; }
-        public string rootId;
+        public tagRECT rect { get; set; }
+        public int level;
+        public List<EleDetail> patternList = new List<EleDetail>();
         public bool isSelected
         {
             get { return GetProperty<bool>(); }
@@ -57,15 +64,17 @@ namespace NewInspect.Automation
         {
 
         }
-        public Elements(string rootId, IUIAutomationElement curr)
+        public Elements(IUIAutomationElement curr, int level)
         {
-            this.rootId = rootId;
-            this.name = NormalizeString(curr.CurrentName);
+            this.nativeName = curr.CurrentName;
+            this.name = NormalizeString(this.nativeName);
             this.className = curr.CurrentClassName;
             this.automationId = curr.CurrentAutomationId;
             this.controlType  = $"{(ControlType)curr.CurrentControlType}";
             this.curr = curr;
-            this.rect = curr.GetHashCode().ToString();
+            this.rect = curr.CurrentBoundingRectangle;
+            this.level = level;
+            GetAllSupportPattern();
         }
 
         private void LoadChildren(bool v)
@@ -75,6 +84,28 @@ namespace NewInspect.Automation
 
         public event PropertyChangedEventHandler PropertyChanged;
         private readonly Dictionary<string, object> _backingFieldValues = new Dictionary<string, object>();
+        public void GetAllSupportPattern()
+        {
+            try
+            {
+                
+                patternList.Add(new EleDetail { key = $"MouseMove", value = "true", isPattern = true });
+                patternList.Add(new EleDetail { key = $"MouseClick", value = "true", isPattern = true });
+                foreach (PatternId p in Enum.GetValues(typeof(PatternId)))
+                {
+                    int id = (int)p;
+                    object pattern = curr.GetCurrentPattern(id);
+                    if (pattern != null)
+                    {
+                        patternList.Add(new EleDetail { key = $"{p}", value = "true", isPattern = true });
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"{ex.Message}, {ex.StackTrace}");
+            }
+        }
         protected T GetProperty<T>([CallerMemberName] string propertyName = null)
         {
             if (propertyName == null)

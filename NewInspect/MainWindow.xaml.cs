@@ -36,6 +36,7 @@ namespace NewInspect
             Height = 650;
             Width = 700;
             Loaded += MainWindow_Loaded;
+            
             HightLight.mouseFunc = GetMouseDetectState;
             this.dataPanel.Visibility= Visibility.Collapsed;
             Logger.Info("MainWindow Setup");
@@ -58,7 +59,7 @@ namespace NewInspect
                 
                 TimeSpan timeSpan = DateTime.Now.Subtract(before);
                 HightLight.MouseDetect(list[0]);
-                
+                //mouseDetectEnable = this.IsMouseOver;
             });
             
         }
@@ -70,6 +71,7 @@ namespace NewInspect
             Elements item = (Elements)treeViewItem.DataContext;
             if (treeViewItem!=null && item!=null)
             {
+                this.richBox.Document.Blocks.Clear();
                 selectedChange(item);
                 treeViewItem.BringIntoView();
                 treeViewItem.HorizontalAlignment = HorizontalAlignment.Left;
@@ -94,14 +96,22 @@ namespace NewInspect
         public void selectedChange(Elements item)
         {
             dict.Clear();
+            dict.Add(new EleDetail { key = nameof(item.firstName), value = item.firstName });
+            dict.Add(new EleDetail { key = nameof(item.firstClassname), value = item.firstClassname });
+            dict.Add(new EleDetail { key = nameof(item.level), value = item.level });
             dict.Add(new EleDetail { key = nameof(item.controlType), value = item.controlType });
-            dict.Add(new EleDetail { key = nameof(item.name), value = item.curr.CurrentName });
+            dict.Add(new EleDetail { key = nameof(item.name), value = item.name });
             dict.Add(new EleDetail { key = nameof(item.automationId), value = item.automationId });
             dict.Add(new EleDetail { key = nameof(item.className), value = item.className });
             dict.Add(new EleDetail { key = nameof(item.offScreen), value = item.offScreen });
-            dict.Add(new EleDetail { key = nameof(item.rect), value = item.rect });
-            Util.GetAllSupportPattern(dict, item.curr);
-            HightLight.DrawHightLight(item.curr.CurrentBoundingRectangle);
+            dict.Add(new EleDetail { key = nameof(item.offScreen), value = item.offScreen });
+            //dict.Add(new EleDetail { key = nameof(item.rect), value = item.rect });
+            //Util.GetAllSupportPattern(dict, item.curr);
+            foreach(var detail in item.patternList)
+            {
+                dict.Add(detail);
+            }
+            HightLight.DrawHightLight(item.rect);
             
         }
 
@@ -122,7 +132,22 @@ namespace NewInspect
 
         public bool GetMouseDetectState()
         {
-            return mouseDetectEnable;
+            return this.IsMouseOver;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var button = sender as Button;
+            var patetrn = button.Tag.ToString();
+            Elements ele = (Elements)this.treeview.SelectedItem;
+            var teampalte = Teamplate.CovertToTeamplate(patetrn, ele);
+            this.richBox.AppendText(teampalte);
+            this.richBox.AppendText("\n");
+        }
+
+        private void NewInspect_MouseMove(object sender, MouseEventArgs e)
+        {
+            string v = "";
         }
     }
 }

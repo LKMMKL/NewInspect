@@ -1,4 +1,5 @@
 ﻿using NewInspect.Constants;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -29,8 +30,7 @@ namespace NewInspect.Automation
                     ControlType.UIA_WindowControlTypeId) as IUIAutomationPropertyCondition;
 
             IUIAutomationElement root = uia.GetRootElement();
-            string rootId = GetRuntimeIdStr(root.GetRuntimeId());
-            Elements r = new Elements(rootId, root);
+            Elements r = new Elements(root, 0);
             //IUIAutomationElementArray arry = uia.GetRootElement().FindAll(TreeScope.TreeScope_Children, (new CUIAutomation()).CreateTrueCondition());
             //for (int i = 0; i < arry.Length; i++)
             //{
@@ -45,12 +45,22 @@ namespace NewInspect.Automation
             {
                 source.children.Clear();
             });
-
+            
             //IUIAutomationElementArray arry = source.curr.FindAll(TreeScope.TreeScope_Children, uia.CreateTrueCondition());
             List<IUIAutomationElement> arry = GetSubElementInfo(source.curr);
             for (int i = 0; i < arry.Count; i++)
             {
-                var ele = new Elements(source.rootId, arry[i]);
+                var ele = new Elements(arry[i], source.level+1);
+                if(ele.level == 1)
+                {
+                    ele.firstName = ele.nativeName;
+                    ele.firstClassname = ele.className;
+                }
+                else
+                {
+                    ele.firstName = source.firstName;
+                    ele.firstClassname = source.firstClassname;
+                }
                 System.Windows.Application.Current.Dispatcher.Invoke(() =>
                 {
                     source.children.Add(ele);
@@ -159,17 +169,25 @@ namespace NewInspect.Automation
 
         public static void GetAllSupportPattern(ObservableCollection<EleDetail> dict, IUIAutomationElement source)
         {
-            dict.Add(new EleDetail { key = $"MouseMove", value = "true", isPattern = true });
-            dict.Add(new EleDetail { key = $"MouseClick", value = "true", isPattern = true });
-            foreach (PatternId p in Enum.GetValues(typeof(PatternId)))
+            try
             {
-                int id = (int)p;
-                object pattern = source.GetCurrentPattern(id);
-                if (pattern != null)
+                dict.Add(new EleDetail { key = $"MouseMove", value = "true", isPattern = true });
+                dict.Add(new EleDetail { key = $"MouseClick", value = "true", isPattern = true });
+                foreach (PatternId p in Enum.GetValues(typeof(PatternId)))
                 {
-                    dict.Add(new EleDetail { key = $"{p}", value = "true", isPattern = true });
+                    int id = (int)p;
+                    object pattern = source.GetCurrentPattern(id);
+                    if (pattern != null)
+                    {
+                        dict.Add(new EleDetail { key = $"{p}", value = "true", isPattern = true });
+                    }
                 }
             }
+            catch(Exception ex)
+            {
+                Logger.Error($"{ex.Message}, {ex.StackTrace}");
+            }
+            
         }
         public static string GetRuntimeIdStr(Array runtimeId)
         {

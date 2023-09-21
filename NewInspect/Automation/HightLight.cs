@@ -87,7 +87,7 @@ namespace NewInspect.Automation
 
         private static void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
-            if (!mouseFunc.Invoke())
+            if (mouseFunc.Invoke())
             {
                 Logger.Info("mouse curor in main window");
                 return;
@@ -113,6 +113,7 @@ namespace NewInspect.Automation
                             CUIAutomation uia = new CUIAutomation();
                             IUIAutomationElement ele = uia.ElementFromPoint(tp);
                             var currName = ele.CurrentName;
+                            var classname = ele.CurrentClassName;
                             if (activeEle == null || (ele != null && uia.CompareElements(ele, activeEle) != 1))
                             {
                                 Logger.Info($"mouse select start: element name {currName}");
