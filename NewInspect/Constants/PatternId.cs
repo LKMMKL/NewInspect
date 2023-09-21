@@ -6,24 +6,33 @@ using System.Threading.Tasks;
 
 namespace NewInspect.Constants
 {
+    public class Pattern
+    {
+        public static Dictionary<PatternId, List<string>> pattern = new Dictionary<PatternId, List<string>>();
+        static Pattern()
+        {
+            var normal = new List<string> {"UI_IsOffscreen", "UI_ClickControl"};
+            pattern.Add(PatternId.InvokePattern, new List<string> { "UI_Invoke", "UI_IsOffscreen", "UI_ClickControl" });
+            pattern.Add(PatternId.TogglePattern, new List<string> { "UI_Toggle", "UI_GetControlToggleState", "UI_IsOffscreen", "UI_ClickControl" });
+            pattern.Add(PatternId.ExpandCollapsePattern, new List<string> { "UI_ExpandCollapse", "UI_GetExpandCollapseState", "UI_IsOffscreen", "UI_ClickControl" });
+            pattern.Add(PatternId.WindowPattern, new List<string> { "IsWindowExist", "CloseWindow", "GetWindowStatus", "IsWindowForward", "IsWindowMaximized", "IsWindowMinimized" });
+        }
+    }
     public enum PatternId
     {
-         UIA_InvokePatternId = 10000,
-         UIA_ItemContainerPatternId = 10019,
-         UIA_TextPattern2Id = 10024,
-         UIA_DragPatternId = 10030,
-         UIA_DropTargetPatternId = 10031,
-         UIA_TextEditPatternId = 10032,
-         UIA_ScrollItemPatternId = 10017,
-         UIA_TogglePatternId = 10015,
-         UIA_SelectionPatternId = 10001,
-         UIA_ValuePatternId = 10002,
-         UIA_RangeValuePatternId = 10003,
-         UIA_ScrollPatternId = 10004,
-         UIA_ExpandCollapsePatternId = 10005,
-         UIA_WindowPatternId = 10009,
-         UIA_SelectionItemPatternId = 10010,
-         UIA_TextPatternId = 10014,
-         UIA_SelectionPattern2Id = 10034
+         InvokePattern = 10000,// click
+         TogglePattern = 10015,// click toggle
+         ExpandCollapsePattern = 10005,
+         WindowPattern = 10009,
+         ItemContainerPattern = 10019,
+         DragPattern = 10030,
+         DropTargetPattern = 10031,
+         TextEditPattern = 10032,
+         ScrollItemPattern = 10017,
+         ValuePattern = 10002,
+         RangeValuePattern = 10003,
+         ScrollPattern = 10004,
+         TextPattern = 10014
     }
+    
 }

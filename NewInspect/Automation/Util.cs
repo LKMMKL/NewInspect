@@ -166,29 +166,6 @@ namespace NewInspect.Automation
             TimeSpan timeSpan = DateTime.Now.Subtract(before);
             Logger.Info($"time span {timeSpan.TotalSeconds}");
         }
-
-        public static void GetAllSupportPattern(ObservableCollection<EleDetail> dict, IUIAutomationElement source)
-        {
-            try
-            {
-                dict.Add(new EleDetail { key = $"MouseMove", value = "true", isPattern = true });
-                dict.Add(new EleDetail { key = $"MouseClick", value = "true", isPattern = true });
-                foreach (PatternId p in Enum.GetValues(typeof(PatternId)))
-                {
-                    int id = (int)p;
-                    object pattern = source.GetCurrentPattern(id);
-                    if (pattern != null)
-                    {
-                        dict.Add(new EleDetail { key = $"{p}", value = "true", isPattern = true });
-                    }
-                }
-            }
-            catch(Exception ex)
-            {
-                Logger.Error($"{ex.Message}, {ex.StackTrace}");
-            }
-            
-        }
         public static string GetRuntimeIdStr(Array runtimeId)
         {
             string id = string.Empty;

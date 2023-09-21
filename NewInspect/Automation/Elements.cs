@@ -88,16 +88,19 @@ namespace NewInspect.Automation
         {
             try
             {
-                
-                patternList.Add(new EleDetail { key = $"MouseMove", value = "true", isPattern = true });
-                patternList.Add(new EleDetail { key = $"MouseClick", value = "true", isPattern = true });
                 foreach (PatternId p in Enum.GetValues(typeof(PatternId)))
                 {
                     int id = (int)p;
                     object pattern = curr.GetCurrentPattern(id);
                     if (pattern != null)
                     {
-                        patternList.Add(new EleDetail { key = $"{p}", value = "true", isPattern = true });
+                        var list = new List<string>();
+                        Pattern.pattern.TryGetValue(p, out list);
+                        if (list == null) break;
+                        foreach(var method in list)
+                        {
+                            patternList.Add(new EleDetail { key = $"{method}", value = "true", isPattern = true });
+                        }
                     }
                 }
             }
