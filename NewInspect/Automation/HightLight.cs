@@ -126,7 +126,7 @@ namespace NewInspect.Automation
                     }
                     catch (Exception ex)
                     {
-                        Logger.Error(ex.StackTrace);
+                        Logger.Error($"mag:{ex.Message}\n{ex.StackTrace}");
                     }
                     finally
                     {
