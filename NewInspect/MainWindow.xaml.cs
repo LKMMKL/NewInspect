@@ -15,6 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace NewInspect
 {
@@ -35,7 +36,6 @@ namespace NewInspect
             Height = 550;
             Width = 700;
             Loaded += MainWindow_Loaded;
-            Util.func = selectedChange;
             HightLight.mouseFunc = GetMouseDetectState;
             Logger.Info("MainWindow Setup");
         }
@@ -49,14 +49,34 @@ namespace NewInspect
             HightLight.MouseDetect(list[0]);
         }
 
-        private void treeview_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+        private void TreeViewSelectedHandler(object sender, RoutedEventArgs e)
         {
-           
-            TreeView treeView = sender as TreeView;
-            Elements item = (Elements)treeView.SelectedItem;
-            if (item != null) selectedChange(item);
+            var treeViewItem = sender as TreeViewItem;
+            
+            Elements item = (Elements)treeViewItem.DataContext;
+            if (treeViewItem!=null && item!=null)
+            {
+                selectedChange(item);
+                treeViewItem.BringIntoView();
+                treeViewItem.HorizontalAlignment = HorizontalAlignment.Left;
+                e.Handled = true;
+            }
         }
+        private void TreeViewItem_RequestBringIntoView(object sender, RequestBringIntoViewEventArgs e)
+        {
 
+            var item = (TreeViewItem)sender;
+            if (item != null)
+            {
+                // move horizontal scrollbar only when event reached last parent item
+                if (item.Parent == null)
+                {
+                    var scrollViewer = this.treeview.Template.FindName("_tv_scrollviewer_", this.treeview) as ScrollViewer;
+                    if (scrollViewer != null)
+                        Dispatcher.BeginInvoke(DispatcherPriority.Loaded, (Action)(() => scrollViewer.ScrollToLeftEnd()));
+                }
+            }
+        }
         public void selectedChange(Elements item)
         {
             dict.Clear();
@@ -68,7 +88,9 @@ namespace NewInspect
             dict.Add(new EleDetail { key = nameof(item.rect), value = item.rect });
             Util.GetAllSupportPattern(dict, item.curr);
             HightLight.DrawHightLight(item.curr.CurrentBoundingRectangle);
+            
         }
+
         private void TextBox_MouseDown(object sender, MouseButtonEventArgs e)
         {
             string v = "";
