@@ -113,7 +113,15 @@ namespace NewInspect.Automation
                     Logger.Error($"Exception: {ex.Message}");
                 }
             }
-
+            foreach(Elements ele in rootElement.children)
+            {
+                if(ele.isExpanded && cui.CompareElements(ele.curr, pathToRoot.Peek()) != 1)
+                {
+                    ele.isExpanded= false;
+                    break;
+                }
+            }
+            
             Logger.Info($"mouse select pathToRoot count:{pathToRoot.Count}, target:{s.CurrentName}, {s.CurrentClassName}, {s.CurrentAutomationId} ");
             Elements elementVm = rootElement;
             //pathToRoot 一定是桌面 sub item
