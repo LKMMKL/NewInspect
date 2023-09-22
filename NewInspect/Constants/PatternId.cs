@@ -11,11 +11,14 @@ namespace NewInspect.Constants
         public static Dictionary<PatternId, List<string>> pattern = new Dictionary<PatternId, List<string>>();
         static Pattern()
         {
-            var normal = new List<string> {"UI_IsOffscreen", "UI_ClickControl"};
-            pattern.Add(PatternId.InvokePattern, new List<string> { "UI_Invoke", "UI_IsOffscreen", "UI_ClickControl" });
-            pattern.Add(PatternId.TogglePattern, new List<string> { "UI_Toggle", "UI_GetControlToggleState", "UI_IsOffscreen", "UI_ClickControl" });
-            pattern.Add(PatternId.ExpandCollapsePattern, new List<string> { "UI_ExpandCollapse", "UI_GetExpandCollapseState", "UI_IsOffscreen", "UI_ClickControl" });
-            pattern.Add(PatternId.WindowPattern, new List<string> { "IsWindowExist", "CloseWindow", "GetWindowStatus", "IsWindowForward", "IsWindowMaximized", "IsWindowMinimized" });
+            var normal = new List<string> {"UI_IsOffscreen", "UI_ClickControl", "UI_ClickControlEx" };
+            pattern.Add(PatternId.InvokePattern, new List<string> { "UI_Invoke", "UI_IsOffscreen", "UI_ClickControl", "UI_ClickControlEx" });
+            pattern.Add(PatternId.TogglePattern, new List<string> { "UI_Toggle", "UI_GetControlToggleState", "UI_IsOffscreen", "UI_ClickControl", "UI_ClickControlEx" });
+            pattern.Add(PatternId.ExpandCollapsePattern, new List<string> { "UI_ExpandCollapse", "UI_GetExpandCollapseState", "UI_IsOffscreen", "UI_ClickControl", "UI_ClickControlEx" });
+            pattern.Add(PatternId.ValuePattern, new List<string> { "UI_GetControlValue" });
+            pattern.Add(PatternId.ScrollItemPattern, new List<string> { "UI_Scroll" });
+            pattern.Add(PatternId.ScrollPattern, new List<string> { "UI_GetScrollInfo" });
+            pattern.Add(PatternId.WindowPattern, new List<string> { "IsWindowExist", "UI_GetWindowPos", "CloseWindow", "GetWindowStatus", "IsWindowVisible", "SetForegroundWindow", "IsWindowForward", "IsWindowMaximized", "IsWindowMinimized" });
         }
     }
     public enum PatternId

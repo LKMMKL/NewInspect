@@ -4,6 +4,7 @@ using Newtonsoft.Json.Serialization;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using UIAutomationClient;
 
 namespace NewInspect.Automation
 {
@@ -17,6 +18,19 @@ namespace NewInspect.Automation
         public string automationid;
         [DefaultValue("")]
         public string ctrlname;
+        
+    }
+
+    public class ScrollItemParams: TParams
+    {
+        [DefaultValue("")]
+        public string scroll_automationid;
+        [DefaultValue("")]
+        public string scroll_ctrlname;
+        [DefaultValue("")]
+        public string find_automationid;
+        [DefaultValue("")]
+        public string find_ctrlname;
     }
     public class Teamplate
     {
@@ -25,13 +39,17 @@ namespace NewInspect.Automation
 
         static Teamplate()
         {
+            // Normal
             templateDict.Add("UI_Invoke", NormalTeamplate);
             templateDict.Add("UI_IsOffscreen", NormalTeamplate);
             templateDict.Add("UI_ClickControl", NormalTeamplate);
+            templateDict.Add("UI_ClickControlEx", NormalTeamplate);
             templateDict.Add("UI_Toggle", NormalTeamplate);
             templateDict.Add("UI_GetControlToggleState", NormalTeamplate);
             templateDict.Add("UI_ExpandCollapse", NormalTeamplate);
             templateDict.Add("UI_GetExpandCollapseState", NormalTeamplate);
+            templateDict.Add("UI_GetControlValue", NormalTeamplate);
+            templateDict.Add("UI_GetScrollInfo", NormalTeamplate);
 
 
             // window
@@ -41,6 +59,10 @@ namespace NewInspect.Automation
             templateDict.Add("IsWindowForward", WindowTeamplate);
             templateDict.Add("IsWindowMaximized", WindowTeamplate);
             templateDict.Add("IsWindowMinimized", WindowTeamplate);
+
+            //scrollItem
+            templateDict.Add("UI_Scroll", ScrollItemTeamplate);
+
         }
 
         public static string NormalTeamplate(string method, Elements ele)
@@ -68,6 +90,36 @@ namespace NewInspect.Automation
             };
             string teamplate = JsonConvert.SerializeObject(param, Formatting.Indented, setting);
             return $"funclib.{method}({teamplate})";
+        }
+
+        public static string ScrollItemTeamplate(string method, Elements ele)
+        {
+            CUIAutomation cui = new CUIAutomation();
+            JsonSerializerSettings setting = new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore, DefaultValueHandling = DefaultValueHandling.Ignore };
+            IUIAutomationElement parent = cui.RawViewWalker.GetParentElement(ele.curr);
+            while (parent != null)
+            {
+                if (parent.GetCurrentPattern(((int)PatternId.ScrollPattern)) != null)
+                {
+                    break;
+                }
+                parent = cui.RawViewWalker.GetParentElement(parent);
+            }
+            if (parent != null)
+            {
+                var param = new ScrollItemParams()
+                {
+                    windowcaption = ele.firstName,
+                    classname = ele.firstClassname,
+                    scroll_automationid = parent.CurrentAutomationId,
+                    scroll_ctrlname = parent.CurrentName,
+                    find_automationid = ele.automationId,
+                    find_ctrlname = ele.nativeName
+                };
+                string teamplate = JsonConvert.SerializeObject(param, Formatting.Indented, setting);
+                return $"funclib.{method}({teamplate})";
+            }
+            return string.Empty ;
         }
         public static string CovertToTeamplate(string method, Elements ele)
         {

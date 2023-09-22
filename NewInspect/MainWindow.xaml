@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:keyboard="clr-namespace:NewInspect.SystemEvent"
         mc:Ignorable="d"
-        Title="NewInspect" x:Name="NewInspect"  Height="450" Width="800" MouseLeave="Window_MouseLeave" MouseEnter="Window_MouseEnter" MouseMove="NewInspect_MouseMove">
+        Title="NewInspect" x:Name="NewInspect"  Height="450" Width="800" Topmost="True" MouseLeave="Window_MouseLeave" MouseEnter="Window_MouseEnter" MouseMove="NewInspect_MouseMove">
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="VisibilityOfBool" />
         <keyboard:KeyboardHook x:Key="keyboardclass"/>
@@ -64,7 +64,7 @@
                         <Style TargetType="{x:Type Button}">
                             <Style.Triggers>
                                 <DataTrigger Binding="{Binding keyInvoke}" Value="true">
-                                    <Setter Property="Background" Value="#D1EEEE" />
+                                    <Setter Property="Background" Value="#00ff66" />
                                 </DataTrigger>
                                 <DataTrigger Binding="{Binding keyInvoke}" Value="false">
                                     <Setter Property="Background" Value="#CDC9C9" />
