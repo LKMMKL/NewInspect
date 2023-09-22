@@ -3,11 +3,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:NewInspect"
+        xmlns:keyboard="clr-namespace:NewInspect.SystemEvent"
         mc:Ignorable="d"
         Title="NewInspect" x:Name="NewInspect"  Height="450" Width="800" MouseLeave="Window_MouseLeave" MouseEnter="Window_MouseEnter" MouseMove="NewInspect_MouseMove">
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="VisibilityOfBool" />
+        <keyboard:KeyboardHook x:Key="keyboardclass"/>
     </Window.Resources>
     <Grid>
         <Grid x:Name="loading" Background="White" HorizontalAlignment="Center" Panel.ZIndex="100">
@@ -56,6 +57,23 @@
         </Grid>
 
         <DockPanel x:Name="dataPanel">
+            <Menu DockPanel.Dock="Top">
+                <Button x:Name="focusBtn" Padding="0"  Focusable="False" Click="focusBtn_Click" ToolTip="Real time tracking mouse">
+                    <Image Width="16" Height="16" Source="/Resources/Button.png" Stretch="Fill"></Image>
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding keyInvoke}" Value="true">
+                                    <Setter Property="Background" Value="#D1EEEE" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding keyInvoke}" Value="false">
+                                    <Setter Property="Background" Value="#CDC9C9" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Menu>
             <Grid>
                 <Grid.Resources>
                     <DrawingBrush x:Key="brush" Stretch="None" AlignmentX="Center" AlignmentY="Top">

@@ -1,4 +1,5 @@
 ﻿using NewInspect.Constants;
+using NewInspect.SystemEvent;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -87,7 +88,7 @@ namespace NewInspect.Automation
 
         private static void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
-            if (mouseFunc.Invoke())
+            if (mouseFunc.Invoke() )
             {
                 Logger.Info("mouse curor in main window");
                 return;

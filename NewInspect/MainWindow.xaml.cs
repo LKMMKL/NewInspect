@@ -1,4 +1,5 @@
 ﻿using NewInspect.Automation;
+using NewInspect.SystemEvent;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -30,6 +31,7 @@ namespace NewInspect
         List<string> patterns = new List<string>();
         ObservableCollection<EleDetail> dict { get; set; } = new ObservableCollection<EleDetail>();
         public bool mouseDetectEnable = true;
+        public KeyboardHook keyboardHook = new KeyboardHook();
         public MainWindow()
         {
             InitializeComponent();
@@ -39,6 +41,8 @@ namespace NewInspect
             
             HightLight.mouseFunc = GetMouseDetectState;
             this.dataPanel.Visibility= Visibility.Collapsed;
+            this.focusBtn.DataContext = keyboardHook;
+            keyboardHook.Start();
             Logger.Info("MainWindow Setup");
         }
 
@@ -71,7 +75,7 @@ namespace NewInspect
             Elements item = (Elements)treeViewItem.DataContext;
             if (treeViewItem!=null && item!=null)
             {
-                this.richBox.Document.Blocks.Clear();
+                //this.richBox.Document.Blocks.Clear();
                 selectedChange(item);
                 treeViewItem.BringIntoView();
                 treeViewItem.HorizontalAlignment = HorizontalAlignment.Left;
@@ -132,7 +136,7 @@ namespace NewInspect
 
         public bool GetMouseDetectState()
         {
-            return this.IsMouseOver;
+            return this.IsMouseOver || !keyboardHook.keyInvoke;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -148,6 +152,12 @@ namespace NewInspect
         private void NewInspect_MouseMove(object sender, MouseEventArgs e)
         {
             string v = "";
+        }
+
+        private void focusBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+            keyboardHook.SetKeyInvoke();
         }
     }
 }
