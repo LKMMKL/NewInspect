@@ -135,7 +135,7 @@ namespace NewInspect.Automation
                 }
             }
             
-            Logger.Info($"mouse select pathToRoot count:{pathToRoot.Count}, target:{s.CurrentName}, {s.CurrentClassName}, {s.CurrentAutomationId} ");
+            //Logger.Info($"mouse select pathToRoot count:{pathToRoot.Count}, target:{s.CurrentName}, {s.CurrentClassName}, {s.CurrentAutomationId} ");
             Elements elementVm = rootElement;
             //pathToRoot 一定是桌面 sub item
             while (pathToRoot.Count > 0)
@@ -146,7 +146,7 @@ namespace NewInspect.Automation
                 //});
                 var elementOnPath = pathToRoot.Pop();
 
-                Logger.Info($"mouse select pathToRoot pop: target:{elementOnPath.CurrentName}, {elementOnPath.CurrentClassName}, {elementOnPath.CurrentAutomationId} ");
+                //Logger.Info($"mouse select pathToRoot pop: target:{elementOnPath.CurrentName}, {elementOnPath.CurrentClassName}, {elementOnPath.CurrentAutomationId} ");
                 var nextElementVm = elementVm.children.FirstOrDefault(child => cui.CompareElements(child.curr, elementOnPath) == 1);
                 if (nextElementVm == null)
                 {

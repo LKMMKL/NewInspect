@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:keyboard="clr-namespace:NewInspect.SystemEvent"
         mc:Ignorable="d"
-        Title="NewInspect" x:Name="NewInspect"  Height="450" Width="800" Topmost="True" MouseLeave="Window_MouseLeave" MouseEnter="Window_MouseEnter" MouseMove="NewInspect_MouseMove">
+        Title="NewInspect" x:Name="NewInspect"  Height="450" Width="800" Topmost="True" ShowInTaskbar="True" MouseLeave="Window_MouseLeave" MouseEnter="Window_MouseEnter" MouseMove="NewInspect_MouseMove">
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="VisibilityOfBool" />
         <keyboard:KeyboardHook x:Key="keyboardclass"/>
@@ -58,7 +58,7 @@
 
         <DockPanel x:Name="dataPanel">
             <Menu DockPanel.Dock="Top">
-                <Button x:Name="focusBtn" Padding="0"  Focusable="False" Click="focusBtn_Click" ToolTip="Real time tracking mouse">
+                <Button x:Name="focusBtn" Padding="0"  Focusable="False" Click="focusBtn_Click" ToolTip="Real Time Tracking Mouse (CTRL + T)">
                     <Image Width="16" Height="16" Source="/Resources/Button.png" Stretch="Fill"></Image>
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
@@ -268,11 +268,9 @@
                                 </DataTemplate>
                             </ItemsControl.ItemTemplate>
                         </ItemsControl>
-                        
                     </GroupBox>
                 </ScrollViewer>
-                <RichTextBox x:Name="richBox" Grid.Column="2" Grid.Row="1" IsReadOnly="True">
-                    
+                <RichTextBox x:Name="richBox" Grid.Column="2" Grid.Row="1">
                 </RichTextBox>
             </Grid>
         </DockPanel>

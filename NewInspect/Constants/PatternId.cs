@@ -18,7 +18,7 @@ namespace NewInspect.Constants
             pattern.Add(PatternId.ValuePattern, new List<string> { "UI_GetControlValue" });
             pattern.Add(PatternId.ScrollItemPattern, new List<string> { "UI_Scroll" });
             pattern.Add(PatternId.ScrollPattern, new List<string> { "UI_GetScrollInfo" });
-            pattern.Add(PatternId.WindowPattern, new List<string> { "IsWindowExist", "UI_GetWindowPos", "CloseWindow", "GetWindowStatus", "IsWindowVisible", "SetForegroundWindow", "IsWindowForward", "IsWindowMaximized", "IsWindowMinimized" });
+            pattern.Add(PatternId.WindowPattern, new List<string> { "IsWindowExist", "UI_GetWindowPos", "CloseWindow", "UI_IsOffscreen", "GetWindowStatus", "IsWindowVisible", "SetForegroundWindow", "IsWindowForward", "IsWindowMaximized", "IsWindowMinimized" });
         }
     }
     public enum PatternId

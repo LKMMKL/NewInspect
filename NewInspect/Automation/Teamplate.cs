@@ -36,7 +36,6 @@ namespace NewInspect.Automation
     {
 
         public static Dictionary<string, Func<string, Elements, string>> templateDict = new Dictionary<string, Func<string, Elements, string>>();
-
         static Teamplate()
         {
             // Normal
@@ -126,6 +125,18 @@ namespace NewInspect.Automation
             Func<string, Elements, string> func;
             templateDict.TryGetValue(method, out func);
             if(func != null)
+            {
+                return func(method, ele);
+            }
+            return string.Empty;
+        }
+
+        public static string DefaultTeamplate(Elements ele)
+        {
+            string method = "UI_ClickControl";
+            Func<string, Elements, string> func;
+            templateDict.TryGetValue(method, out func);
+            if (func != null)
             {
                 return func(method, ele);
             }

@@ -41,9 +41,20 @@ namespace NewInspect
             
             HightLight.mouseFunc = GetMouseDetectState;
             this.focusBtn.DataContext = keyboardHook;
+            keyboardHook.altHook = DefalutInvoke;
             keyboardHook.Start();
             this.dataPanel.Visibility = Visibility.Collapsed;
             Logger.Info("MainWindow Setup");
+        }
+
+
+        private void DefalutInvoke()
+        {
+            Elements item = (Elements)this.treeview.SelectedItem;
+            if (item == null) return;
+            var teampalte = Teamplate.DefaultTeamplate(item);
+            this.richBox.AppendText(teampalte);
+            this.richBox.AppendText("\n");
         }
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
@@ -73,6 +84,7 @@ namespace NewInspect
             var treeViewItem = sender as TreeViewItem;
             
             Elements item = (Elements)treeViewItem.DataContext;
+            
             if (treeViewItem!=null && item!=null)
             {
                 //this.richBox.Document.Blocks.Clear();
@@ -144,6 +156,7 @@ namespace NewInspect
             var button = sender as Button;
             var patetrn = button.Tag.ToString();
             Elements ele = (Elements)this.treeview.SelectedItem;
+            if (ele == null) return;
             var teampalte = Teamplate.CovertToTeamplate(patetrn, ele);
             this.richBox.AppendText(teampalte);
             this.richBox.AppendText("\n");

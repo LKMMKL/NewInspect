@@ -1,4 +1,5 @@
-﻿using NewInspect.Constants;
+﻿using NewInspect.Automation;
+using NewInspect.Constants;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,9 +16,11 @@ namespace NewInspect.SystemEvent
     {
         static HookProc KeyboardHookProcedure; //声明KeyboardHookProcedure作为HookProc类型
         static int hKeyboardHook = 0; //声明键盘钩子处理的初始值
+        public  Action altHook;
         public bool keyInvoke { get; set; } = true;
         
         public event PropertyChangedEventHandler PropertyChanged;
+       
 
         public void SetKeyInvoke()
         {
@@ -60,15 +63,15 @@ namespace NewInspect.SystemEvent
             if ((nCode >= 0))
             {
                 Win32API.KeyboardHookStruct hookStruct = (Win32API.KeyboardHookStruct)Marshal.PtrToStructure(lParam, typeof(Win32API.KeyboardHookStruct));
-                //if (hookStruct.vkCode == (int)Keys.X && wParam == 256)  //D
-                //{
-                //    Logger.Info($"click keynbord ctrl + x");
-                //}
-                if (wParam == 256)  //D
+                if (wParam == 256 && (hookStruct.vkCode == (int)Keys.T))  //CTRL
                 {
                     SetKeyInvoke();
                     
                     Logger.Info($"click keynbord ctrl");
+                }
+                else if(wParam == 260) //automic invoke UI_ClickControl 
+                {
+                    altHook.Invoke();
                 }
 
             }

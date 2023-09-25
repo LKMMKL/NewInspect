@@ -82,12 +82,18 @@ namespace NewInspect.Automation
             Util.LoadChildren(this, v);
         }
 
+        //public Elements TraceToPrevious()
+        //{
+            
+        //}
+
         public event PropertyChangedEventHandler PropertyChanged;
         private readonly Dictionary<string, object> _backingFieldValues = new Dictionary<string, object>();
         public void GetAllSupportPattern()
         {
             try
             {
+                patternList.Add(new EleDetail { key = $"UI_ClickControlEx", value = "true", isPattern = true });
                 foreach (PatternId p in Enum.GetValues(typeof(PatternId)))
                 {
                     int id = (int)p;
@@ -136,7 +142,7 @@ namespace NewInspect.Automation
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-        private string NormalizeString(string value)
+        protected string NormalizeString(string value)
         {
             if (String.IsNullOrEmpty(value))
             {
@@ -144,5 +150,7 @@ namespace NewInspect.Automation
             }
             return value.Replace(Environment.NewLine, " ").Replace('\r', ' ').Replace('\n', ' ');
         }
+
+
     }
 }
