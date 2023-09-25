@@ -45,9 +45,11 @@ namespace NewInspect.Automation
             {
                 source.children.Clear();
             });
-            
+            DateTime before = DateTime.Now;
             //IUIAutomationElementArray arry = source.curr.FindAll(TreeScope.TreeScope_Children, uia.CreateTrueCondition());
             List<IUIAutomationElement> arry = GetSubElementInfo(source.curr);
+            TimeSpan timeSpan = DateTime.Now.Subtract(before);
+            TimeSpan timeSpan1 = DateTime.Now.Subtract(before);
             for (int i = 0; i < arry.Count; i++)
             {
                 var ele = new Elements(arry[i], source.level+1);
@@ -68,6 +70,7 @@ namespace NewInspect.Automation
                 if (loadNextChildren)
                 {
                     LoadChildren(ele, false);
+
                 }
 
             }
@@ -165,6 +168,29 @@ namespace NewInspect.Automation
             elementVm.isSelected = true;
             TimeSpan timeSpan = DateTime.Now.Subtract(before);
             Logger.Info($"time span {timeSpan.TotalSeconds}");
+        }
+
+        public static void GetAllSupportPattern(ObservableCollection<EleDetail> dict, IUIAutomationElement source)
+        {
+            try
+            {
+                dict.Add(new EleDetail { key = $"MouseMove", value = "true", isPattern = true });
+                dict.Add(new EleDetail { key = $"MouseClick", value = "true", isPattern = true });
+                foreach (PatternId p in Enum.GetValues(typeof(PatternId)))
+                {
+                    int id = (int)p;
+                    object pattern = source.GetCurrentPattern(id);
+                    if (pattern != null)
+                    {
+                        dict.Add(new EleDetail { key = $"{p}", value = "true", isPattern = true });
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                Logger.Error($"{ex.Message}, {ex.StackTrace}");
+            }
+            
         }
         public static string GetRuntimeIdStr(Array runtimeId)
         {

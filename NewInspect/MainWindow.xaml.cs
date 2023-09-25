@@ -30,7 +30,7 @@ namespace NewInspect
         List<Elements> list = new List<Elements>();
         List<string> patterns = new List<string>();
         ObservableCollection<EleDetail> dict { get; set; } = new ObservableCollection<EleDetail>();
-        public bool mouseDetectEnable = true;
+        public bool mouseDetectEnable = false;
         public KeyboardHook keyboardHook = new KeyboardHook();
         public MainWindow()
         {
@@ -40,9 +40,9 @@ namespace NewInspect
             Loaded += MainWindow_Loaded;
             
             HightLight.mouseFunc = GetMouseDetectState;
-            this.dataPanel.Visibility= Visibility.Collapsed;
             this.focusBtn.DataContext = keyboardHook;
             keyboardHook.Start();
+            this.dataPanel.Visibility = Visibility.Collapsed;
             Logger.Info("MainWindow Setup");
         }
 
